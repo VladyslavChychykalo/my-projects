@@ -545,7 +545,7 @@ main {
   line-height: 1.618;
 }
 
-/* .discoghraphy-article-1 */
+/* discoghraphy-article-1 */
 
 .discoghraphy-article-1 {
   padding: 0 52px 0 52px;
@@ -601,7 +601,7 @@ main {
   line-height: 1.618;
 }
 
-/* .discoghraphy-article-2 */
+/* discoghraphy-article-2 */
 
 .discoghraphy-article-2 {
   padding: 0 52px 0 52px;
@@ -744,4 +744,14 @@ main {
   color: #ffffff;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+
+.concert-tours__info {
+  text-align: center;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #788184;
+  line-height: 1.618;
+  padding: 0 40px 0 40px;
 }
