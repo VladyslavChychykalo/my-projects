@@ -729,7 +729,7 @@ main {
 
 /* CONCERT-TOURS */
 
-.concert-tours__title {
+.concert-tours .concert-tours__title {
   text-transform: uppercase;
   font-size: 51px;
   text-align: center;
@@ -746,12 +746,66 @@ main {
   -webkit-background-clip: text;
 }
 
-.concert-tours__info {
+.concert-tours .concert-tours__info {
   text-align: center;
   font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #788184;
   line-height: 1.618;
-  padding: 0 40px 0 40px;
+  letter-spacing: 1.5px;
+  padding: 0 60px 0 60px;
 }
+
+.concert-tours .concert-tours__background {
+  background-image: url(../img/concert-tours__background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 980px;
+}
+
+.concert-tours-background {
+  padding: 0 52px 0 52px;
+  /* smoke + mirror*/
+}
+
+.concert-tours-background .concert-tours-background__date {
+  display: block;
+  padding-top: 500px;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: rgba(0, 0, 2, 0.651);
+  line-height: 1.618;
+}
+
+.concert-tours-background .concert-tours-background__title {
+  text-transform: uppercase;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.618;
+}
+
+.concert-tours-background .concert-tours-background__subtitle {
+  font-size: 23px;
+  line-height: 1.055;
+  font-family: "Open Sans", Ariel, sans-serif;
+}
+
+.concert-tours-background .concert-tours-background__info {
+  width: 395px;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #788184;
+  line-height: 1.618;
+  font-size: 15px;
+}
+
+/*
+.concert-tours-background-block {
+  padding-top: 500px
+}
+*/
