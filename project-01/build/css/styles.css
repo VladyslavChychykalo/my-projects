@@ -772,7 +772,7 @@ main {
 
 .concert-tours-background .concert-tours-background__date {
   display: block;
-  padding-top: 500px;
+  padding-top: 300px;
   font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 700;
   font-size: 15px;
@@ -795,13 +795,29 @@ main {
 }
 
 .concert-tours-background .concert-tours-background__info {
-  width: 395px;
+  width: 380px;
   font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #788184;
   line-height: 1.618;
   font-size: 15px;
+}
+
+.concert-tours-background .concert-tours-background__button {
+  margin-top: 150px;
+  display: block;
+  background-color: transparent;
+  width: 196px;
+  height: 56px;
+  color: black;
+  cursor: pointer;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border-width: 1px;
+  border-color: rgba(98, 98, 98, 0.5);
+  border-style: solid;
 }
 
 /*
