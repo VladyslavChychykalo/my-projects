@@ -367,3 +367,19 @@ main {
   padding-top: 500px
 }
 */
+
+/* LETTER COMPOSITIONS */
+
+.letter-compositions {
+  .letter-compositions__title {
+    height: 37px;
+    color: #000000;
+    font-family: $main-title-font;
+    font-size: 50px;
+    font-weight: 400;
+    // line-height: 59.27px;
+    text-transform: uppercase;
+    letter-spacing: 5.96px;
+    text-align: center
+  }
+}

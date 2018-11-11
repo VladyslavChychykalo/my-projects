@@ -825,3 +825,16 @@ main {
   padding-top: 500px
 }
 */
+
+/* LETTER COMPOSITIONS */
+
+.letter-compositions .letter-compositions__title {
+  height: 37px;
+  color: #000000;
+  font-family: Dosis, Ariel, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5.96px;
+  text-align: center;
+}
