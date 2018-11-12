@@ -838,3 +838,69 @@ main {
   letter-spacing: 5.96px;
   text-align: center;
 }
+
+.letter-compositions .letter-compositions__info {
+  padding: 0 52px 0 52px;
+  text-align: center;
+  height: 41px;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 1.77px;
+}
+
+.letter-compositions-box {
+  width: 600px;
+  height: 422px;
+  background-color: #f5f6f6;
+  margin: auto;
+}
+
+.letter-compositions-box .letter-compositions-box__date {
+  display: inline-block;
+  padding-top: 34px;
+  padding-left: 35px;
+  opacity: 0.65;
+  color: #000002;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.letter-compositions-box .letter-compositions-box__pre-title {
+  padding-left: 35px;
+  height: 11px;
+  color: #000002;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24.27px;
+  text-transform: uppercase;
+}
+
+.letter-compositions-box .letter-compositions-box__title {
+  padding-left: 36px;
+  padding-right: 70px;
+  height: 45px;
+  color: #000000;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.41px;
+}
+
+.letter-compositions-box .letter-compositions-box__info {
+  padding-left: 36px;
+  width: 514px;
+  height: 65px;
+  color: #7a8083;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
+}
