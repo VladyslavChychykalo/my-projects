@@ -56,7 +56,7 @@ main {
 .discoghraphy {
   padding: 0 52px 0 52px;
   
-  .discography__title {
+  &__title {
     text-transform: uppercase;
     font-size: 51px;
     text-align: center;
@@ -67,21 +67,31 @@ main {
     letter-spacing: 5px;
   }
 
-  .discography__info {
-    font-size: 15px;
+  &__info {
     text-align: center;
+    color: #7a8083;
     font-family: $base-font;
+    font-size: 15px;
     font-weight: 400;
-    color: #788184;
-    line-height: 1.618;
+    line-height: 24.27px;
+    letter-spacing: 1.77px;
   }
 
-  .discography__date {
+  &__date {
     font-family: $base-font;
     font-weight: 700;
     font-size: 15px;
     color: rgba(0, 0, 2, 0.651);
     line-height: 1.618;
+
+    &::after {
+      display: block;
+      width: 649px;
+      height: 2px;
+      background-color: #000002;
+      content: "";
+      opacity: 0.5;
+    }
   }
 }
 
@@ -90,30 +100,34 @@ main {
 .discoghraphy-article-1 {
   padding: 0 52px 0 52px;
 
-  .discoghraphy-article-1__pretitle {
+  &__pretitle {
     text-transform: uppercase;
     font-family: $base-font;
     font-weight: 700;
     font-size: 15px;
-    line-height: 1.618;
+    line-height: 1.618; 
   }
 
-  .discoghraphy-article-1__title {
+  &__title {
+    color: #000002;
+    font-family: $base-font;
     font-size: 24px;
-    font-family: $base-font;
     font-weight: 400;
-    line-height: 1.011;
+    line-height: 24.27px;
+    letter-spacing: 0.43px;
+    opacity: 0.5;
   }
 
-  .discoghraphy-article-1__info {
+  &__info {
+    color: #aaaaaa;
     font-family: $base-font;
-    font-weight: 400;
     font-size: 15px;
-    color: #acacac;
-    line-height: 1.618;
+    font-weight: 400;
+    line-height: 24.27px;
+    letter-spacing: 0.27px;
   }
 
-  .discoghraphy-article-1__button {
+  &__button {
     display: block;
     background-image: url(../img/discography-article-1__button.png);
     background-position: center;
@@ -132,12 +146,21 @@ main {
     border-style: solid;
   }
 
-  .discoghraphy-article-1__date {
+  &__date {
     font-family: $base-font;
     font-weight: 700;
     font-size: 15px;
     color: rgba(0, 0, 2, 0.651);
     line-height: 1.618;
+
+    &::after {
+      display: block;
+      width: 649px;
+      height: 2px;
+      background-color: #000002;
+      content: "";
+      opacity: 0.5;
+    }
   }
 }
 
@@ -146,30 +169,35 @@ main {
 .discoghraphy-article-2 {
   padding: 0 52px 0 52px;
 
-  .discoghraphy-article-2__pretitle {
-    text-transform: uppercase;
+  &__pretitle {
+    color: #000002;
     font-family: $base-font;
+    font-size: 15px;
     font-weight: 700;
-    font-size: 15px;
-    line-height: 1.618;
+    line-height: 24.27px;
+    text-transform: uppercase;
   }
 
-  .discoghraphy-article-2__title {
-    font-size: 24px;
+  &__title {
+    width: 450px;
+    color: #000002;
     font-family: $base-font;
+    font-size: 23px;
     font-weight: 400;
-    line-height: 1.011;
+    line-height: 24.27px;
+    letter-spacing: 0.23px;
   }
 
-  .discoghraphy-article-2__info {
+  &__info {
+    color: #aaaaaa;
     font-family: $base-font;
-    font-weight: 400;
     font-size: 15px;
-    color: #acacac;
-    line-height: 1.618;
+    font-weight: 400;
+    line-height: 24.27px;
+    letter-spacing: 0.27px;
   }
 
-  .discoghraphy-article-2__button {
+  &__button {
     display: block;
     background-image: url(../img/discoghraphy-article-2__button.png);
     background-position: center;
@@ -188,7 +216,7 @@ main {
     border-style: solid;
   }
 
-  .discoghraphy-article-2__date {
+  &__date {
     font-family: $base-font;
     font-weight: 700;
     font-size: 15px;
@@ -221,33 +249,36 @@ main {
   }
   */
 
-  .discoghraphy-article-3__pretitle {
+  &__pretitle {
     position: relative;
     text-transform: uppercase;
     font-family: $base-font;
     font-weight: 700;
     font-size: 15px;
-    line-height: 1.618;
+    line-height: 1.618; 
   }
 
-  .discoghraphy-article-3__title {
+  &__title {
     position: relative;
-    font-size: 24px;
+    color: #000000;
     font-family: $base-font;
+    font-size: 23px;
     font-weight: 400;
-    line-height: 1.533;
+    line-height: 35.27px;
+    letter-spacing: 0.41px;
   }
 
-  .discoghraphy-article-3__info {
+  &__info {
     position: relative;
+    color: #aaaaaa;
     font-family: $base-font;
-    font-weight: 400;
     font-size: 15px;
-    color: #acacac;
-    line-height: 1.618;
+    font-weight: 400;
+    line-height: 24.27px;
+    letter-spacing: 0.27px;
   }
 
-  .discoghraphy-article-3__button {
+  &__button {
     display: block;
     position: relative;
     background-image: url(../img/discoghraphy-article-3__button.png);
@@ -270,16 +301,16 @@ main {
 
 /* CONCERT-TOURS */
 .concert-tours {
-  .concert-tours__title {
+  &__title {
     text-transform: uppercase;
     font-size: 51px;
     text-align: center;
     font-family: $main-title-font;
     font-weight: 400;
     font-size: 51px;
-    line-height: 1.174;
-    letter-spacing: 5px;
-    background-image: linear-gradient(-90deg, rgba(98,158,168,1), rgba(140,182,175,1));
+    line-height: 59.27px;
+    letter-spacing: 5.96px;
+    background-image: linear-gradient(to bottom, rgba(98,158,168,1), rgba(140,182,175,1));
     background-position: center;
     background-repeat: no-repeat;
     color: #ffffff;
@@ -287,7 +318,7 @@ main {
     -webkit-background-clip: text;
   }
 
-  .concert-tours__info {
+  &__info {
     text-align: center;
     font-family: $base-font;
     font-weight: 400;
@@ -298,7 +329,7 @@ main {
     padding: 0 60px 0 60px;
   }
 
-  .concert-tours__background {
+  &__background {
     background-image: url(../img/concert-tours__background.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -311,7 +342,7 @@ main {
   padding: 0 52px 0 52px;
 
   /* smoke + mirror*/
-  .concert-tours-background__date {
+  &__date {
     display: block;
     padding-top: 300px;
     font-family: $base-font;
@@ -319,9 +350,18 @@ main {
     font-size: 15px;
     color: rgba(0, 0, 2, 0.651);
     line-height: 1.618;
+
+    &::after {
+      display: block;
+      width: 392px;
+      height: 2px;
+      background-color: #000002;
+      content: "";
+      opacity: 0.5;
+    }
   }
 
-  .concert-tours-background__title {
+  &__title {
     text-transform: uppercase;
     font-family: $base-font;
     font-weight: 700;
@@ -329,13 +369,13 @@ main {
     line-height: 1.618;
   }
 
-  .concert-tours-background__subtitle {
+  &__subtitle {
     font-size: 23px;
     line-height: 1.055;
     font-family: $base-font;
   }
 
-  .concert-tours-background__info {
+  &__info {
     width: 380px;
     font-family: $base-font;
     font-weight: 400;
@@ -345,7 +385,7 @@ main {
     font-size: 15px;
   }
 
-  .concert-tours-background__button {
+  &__button {
     margin-top: 150px;
     display: block;
     background-color: transparent;
@@ -484,5 +524,10 @@ main {
     justify-content: space-between;
     align-items: flex-end;
     width: 250px;
+    list-style: none;
+  }
+
+  .letter-compositions-box__icon {
+    cursor: pointer;
   }
 }

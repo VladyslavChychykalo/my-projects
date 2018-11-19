@@ -517,7 +517,7 @@ main {
   padding: 0 52px 0 52px;
 }
 
-.discoghraphy .discography__title {
+.discoghraphy__title {
   text-transform: uppercase;
   font-size: 51px;
   text-align: center;
@@ -528,21 +528,31 @@ main {
   letter-spacing: 5px;
 }
 
-.discoghraphy .discography__info {
-  font-size: 15px;
+.discoghraphy__info {
   text-align: center;
+  color: #7a8083;
   font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
   font-weight: 400;
-  color: #788184;
-  line-height: 1.618;
+  line-height: 24.27px;
+  letter-spacing: 1.77px;
 }
 
-.discoghraphy .discography__date {
+.discoghraphy__date {
   font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 700;
   font-size: 15px;
   color: rgba(0, 0, 2, 0.651);
   line-height: 1.618;
+}
+
+.discoghraphy__date::after {
+  display: block;
+  width: 649px;
+  height: 2px;
+  background-color: #000002;
+  content: "";
+  opacity: 0.5;
 }
 
 /* discoghraphy-article-1 */
@@ -551,7 +561,7 @@ main {
   padding: 0 52px 0 52px;
 }
 
-.discoghraphy-article-1 .discoghraphy-article-1__pretitle {
+.discoghraphy-article-1__pretitle {
   text-transform: uppercase;
   font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 700;
@@ -559,22 +569,26 @@ main {
   line-height: 1.618;
 }
 
-.discoghraphy-article-1 .discoghraphy-article-1__title {
+.discoghraphy-article-1__title {
+  color: #000002;
+  font-family: "Open Sans", Ariel, sans-serif;
   font-size: 24px;
-  font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 400;
-  line-height: 1.011;
+  line-height: 24.27px;
+  letter-spacing: 0.43px;
+  opacity: 0.5;
 }
 
-.discoghraphy-article-1 .discoghraphy-article-1__info {
+.discoghraphy-article-1__info {
+  color: #aaaaaa;
   font-family: "Open Sans", Ariel, sans-serif;
-  font-weight: 400;
   font-size: 15px;
-  color: #acacac;
-  line-height: 1.618;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
 }
 
-.discoghraphy-article-1 .discoghraphy-article-1__button {
+.discoghraphy-article-1__button {
   display: block;
   background-image: url(../img/discography-article-1__button.png);
   background-position: center;
@@ -593,12 +607,21 @@ main {
   border-style: solid;
 }
 
-.discoghraphy-article-1 .discoghraphy-article-1__date {
+.discoghraphy-article-1__date {
   font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 700;
   font-size: 15px;
   color: rgba(0, 0, 2, 0.651);
   line-height: 1.618;
+}
+
+.discoghraphy-article-1__date::after {
+  display: block;
+  width: 649px;
+  height: 2px;
+  background-color: #000002;
+  content: "";
+  opacity: 0.5;
 }
 
 /* discoghraphy-article-2 */
@@ -607,30 +630,35 @@ main {
   padding: 0 52px 0 52px;
 }
 
-.discoghraphy-article-2 .discoghraphy-article-2__pretitle {
-  text-transform: uppercase;
+.discoghraphy-article-2__pretitle {
+  color: #000002;
   font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
   font-weight: 700;
-  font-size: 15px;
-  line-height: 1.618;
+  line-height: 24.27px;
+  text-transform: uppercase;
 }
 
-.discoghraphy-article-2 .discoghraphy-article-2__title {
-  font-size: 24px;
+.discoghraphy-article-2__title {
+  width: 450px;
+  color: #000002;
   font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 23px;
   font-weight: 400;
-  line-height: 1.011;
+  line-height: 24.27px;
+  letter-spacing: 0.23px;
 }
 
-.discoghraphy-article-2 .discoghraphy-article-2__info {
+.discoghraphy-article-2__info {
+  color: #aaaaaa;
   font-family: "Open Sans", Ariel, sans-serif;
-  font-weight: 400;
   font-size: 15px;
-  color: #acacac;
-  line-height: 1.618;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
 }
 
-.discoghraphy-article-2 .discoghraphy-article-2__button {
+.discoghraphy-article-2__button {
   display: block;
   background-image: url(../img/discoghraphy-article-2__button.png);
   background-position: center;
@@ -649,7 +677,7 @@ main {
   border-style: solid;
 }
 
-.discoghraphy-article-2 .discoghraphy-article-2__date {
+.discoghraphy-article-2__date {
   font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 700;
   font-size: 15px;
@@ -681,7 +709,7 @@ main {
   */
 }
 
-.discoghraphy-article-3 .discoghraphy-article-3__pretitle {
+.discoghraphy-article-3__pretitle {
   position: relative;
   text-transform: uppercase;
   font-family: "Open Sans", Ariel, sans-serif;
@@ -690,24 +718,27 @@ main {
   line-height: 1.618;
 }
 
-.discoghraphy-article-3 .discoghraphy-article-3__title {
+.discoghraphy-article-3__title {
   position: relative;
-  font-size: 24px;
+  color: #000000;
   font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 23px;
   font-weight: 400;
-  line-height: 1.533;
+  line-height: 35.27px;
+  letter-spacing: 0.41px;
 }
 
-.discoghraphy-article-3 .discoghraphy-article-3__info {
+.discoghraphy-article-3__info {
   position: relative;
+  color: #aaaaaa;
   font-family: "Open Sans", Ariel, sans-serif;
-  font-weight: 400;
   font-size: 15px;
-  color: #acacac;
-  line-height: 1.618;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
 }
 
-.discoghraphy-article-3 .discoghraphy-article-3__button {
+.discoghraphy-article-3__button {
   display: block;
   position: relative;
   background-image: url(../img/discoghraphy-article-3__button.png);
@@ -729,16 +760,16 @@ main {
 
 /* CONCERT-TOURS */
 
-.concert-tours .concert-tours__title {
+.concert-tours__title {
   text-transform: uppercase;
   font-size: 51px;
   text-align: center;
   font-family: Dosis, Ariel, sans-serif;
   font-weight: 400;
   font-size: 51px;
-  line-height: 1.174;
-  letter-spacing: 5px;
-  background-image: linear-gradient(-90deg, #629ea8, #8cb6af);
+  line-height: 59.27px;
+  letter-spacing: 5.96px;
+  background-image: linear-gradient(to bottom, #629ea8, #8cb6af);
   background-position: center;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -746,7 +777,7 @@ main {
   -webkit-background-clip: text;
 }
 
-.concert-tours .concert-tours__info {
+.concert-tours__info {
   text-align: center;
   font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 400;
@@ -757,7 +788,7 @@ main {
   padding: 0 60px 0 60px;
 }
 
-.concert-tours .concert-tours__background {
+.concert-tours__background {
   background-image: url(../img/concert-tours__background.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -770,7 +801,7 @@ main {
   /* smoke + mirror*/
 }
 
-.concert-tours-background .concert-tours-background__date {
+.concert-tours-background__date {
   display: block;
   padding-top: 300px;
   font-family: "Open Sans", Ariel, sans-serif;
@@ -780,7 +811,16 @@ main {
   line-height: 1.618;
 }
 
-.concert-tours-background .concert-tours-background__title {
+.concert-tours-background__date::after {
+  display: block;
+  width: 392px;
+  height: 2px;
+  background-color: #000002;
+  content: "";
+  opacity: 0.5;
+}
+
+.concert-tours-background__title {
   text-transform: uppercase;
   font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 700;
@@ -788,13 +828,13 @@ main {
   line-height: 1.618;
 }
 
-.concert-tours-background .concert-tours-background__subtitle {
+.concert-tours-background__subtitle {
   font-size: 23px;
   line-height: 1.055;
   font-family: "Open Sans", Ariel, sans-serif;
 }
 
-.concert-tours-background .concert-tours-background__info {
+.concert-tours-background__info {
   width: 380px;
   font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 400;
@@ -804,7 +844,7 @@ main {
   font-size: 15px;
 }
 
-.concert-tours-background .concert-tours-background__button {
+.concert-tours-background__button {
   margin-top: 150px;
   display: block;
   background-color: transparent;
@@ -940,4 +980,9 @@ main {
   justify-content: space-between;
   align-items: flex-end;
   width: 250px;
+  list-style: none;
+}
+
+.letter-compositions-box .letter-compositions-box__icon {
+  cursor: pointer;
 }
