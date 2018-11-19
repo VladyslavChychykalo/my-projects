@@ -394,6 +394,13 @@ main {
     line-height: 24.27px;
     letter-spacing: 1.77px;
   }
+
+  .letter-compositions__video {
+    display: block;
+    width: 600px;
+    height: 422px;
+    margin: auto;
+  }
 }
 
 .letter-compositions-box {
@@ -401,6 +408,7 @@ main {
   height: 422px;
   background-color: #f5f6f6;
   margin: auto;
+  margin-top: 48px;
 
   .letter-compositions-box__date {
     display: inline-block;
@@ -426,7 +434,7 @@ main {
   }
 
   .letter-compositions-box__title {
-    padding-left: 36px;
+    padding-left: 35px;
     padding-right: 70px;
     height: 45px;
     color: #000000;
@@ -438,8 +446,8 @@ main {
   }
 
   .letter-compositions-box__info {
-    padding-left: 36px;
-    width: 514px;
+    padding-left: 35px;
+    width: 520px;
     height: 65px;
     color: #7a8083;
     font-family: "Open Sans";
@@ -447,5 +455,34 @@ main {
     font-weight: 400;
     line-height: 24.27px;
     letter-spacing: 0.27px;
+  }
+
+  .letter-compositions-box__feedback {
+    display: flex;
+  }
+
+  .letter-compositions-box__button {
+    margin-left: 35px;
+    margin-top: 56px;
+    display: inline-block;
+    background-color: transparent;
+    width: 196px;
+    height: 56px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: $base-font;
+    font-size: 14px;
+    font-weight: bold;
+    border-width: 1px;
+    border-color: rgba(98, 98, 98, 0.5);
+    border-style: solid;
+  }
+
+  .letter-compositions-box__links {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 250px;
   }
 }
