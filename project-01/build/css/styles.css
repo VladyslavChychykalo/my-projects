@@ -467,6 +467,28 @@ template {
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/*PT Sans Font*/
+
+/* pt-sans-regular - latin */
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), local("PTSans-Regular"), url("../fonts/pt-sans-v9-latin-regular.woff2") format("woff2"), url("../fonts/pt-sans-v9-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pt-sans-700 - latin */
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT Sans Bold"), local("PTSans-Bold"), url("../fonts/pt-sans-v9-latin-700.woff2") format("woff2"), url("../fonts/pt-sans-v9-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 /* HEADRER SECTION */
 
 .header__wrapper {
@@ -985,4 +1007,51 @@ main {
 
 .letter-compositions-box .letter-compositions-box__icon {
   cursor: pointer;
+}
+
+.letter-compositions-block {
+  margin-top: 109px;
+  background-image: url(../img/ocean_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 750px;
+  height: 642px;
+}
+
+.letter-compositions-block__topic {
+  margin: auto;
+  text-align: center;
+  width: 608px;
+  color: #ffffff;
+  font-family: "PT Sans", Ariel, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26.27px;
+  text-transform: uppercase;
+  letter-spacing: 2.01px;
+}
+
+.letter-compositions-block__info {
+  margin: auto;
+  text-align: center;
+  width: 506px;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.25px;
+}
+
+.letter-compositions-block__date {
+  display: block;
+  margin: auto;
+  width: 200px;
+  color: #565e61;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.25px;
 }
