@@ -411,7 +411,7 @@ main {
 /* LETTER COMPOSITIONS */
 
 .letter-compositions {
-  .letter-compositions__title {
+  &__title {
     height: 37px;
     color: #000000;
     font-family: $main-title-font;
@@ -423,7 +423,7 @@ main {
     text-align: center
   }
 
-  .letter-compositions__info {
+  &__info {
     padding: 0 52px 0 52px;
     text-align: center;
     height: 41px;
@@ -435,7 +435,7 @@ main {
     letter-spacing: 1.77px;
   }
 
-  .letter-compositions__video {
+  &__video {
     display: block;
     width: 600px;
     height: 422px;
@@ -450,7 +450,7 @@ main {
   margin: auto;
   margin-top: 48px;
 
-  .letter-compositions-box__date {
+  &__date {
     display: inline-block;
     padding-top: 34px;
     padding-left: 35px;
@@ -462,7 +462,7 @@ main {
     text-transform: uppercase;
   }
 
-  .letter-compositions-box__pre-title {
+  &__pre-title {
     padding-left: 35px;
     height: 11px;
     color: #000002;
@@ -473,7 +473,7 @@ main {
     text-transform: uppercase;
   }
 
-  .letter-compositions-box__title {
+  &__title {
     padding-left: 35px;
     padding-right: 70px;
     height: 45px;
@@ -485,7 +485,7 @@ main {
     letter-spacing: 0.41px;
   }
 
-  .letter-compositions-box__info {
+  &__info {
     padding-left: 35px;
     width: 520px;
     height: 65px;
@@ -497,11 +497,11 @@ main {
     letter-spacing: 0.27px;
   }
 
-  .letter-compositions-box__feedback {
+  &__feedback {
     display: flex;
   }
 
-  .letter-compositions-box__button {
+  &__button {
     margin-left: 35px;
     margin-top: 56px;
     display: inline-block;
@@ -518,7 +518,7 @@ main {
     border-style: solid;
   }
 
-  .letter-compositions-box__links {
+  &__links {
     display: flex;
     margin: 0;
     justify-content: space-between;
@@ -527,7 +527,7 @@ main {
     list-style: none;
   }
 
-  .letter-compositions-box__icon {
+  &__icon {
     cursor: pointer;
   }
 }
@@ -956,4 +956,4 @@ main {
       letter-spacing: 0.27px;
     }
   }
-}
+} // overflow - hidden нужно попробовать
