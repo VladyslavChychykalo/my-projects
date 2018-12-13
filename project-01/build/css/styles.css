@@ -1434,3 +1434,12 @@ main {
   line-height: 24.27px;
   letter-spacing: 0.27px;
 }
+
+.upcoming-events {
+  background-image: url(../img/upcoming-events-image.png);
+  background-size: cover;
+  background-position: right 62.5% bottom 50%;
+  background-repeat: no-repeat;
+  width: 750px;
+  height: 1203px;
+}
