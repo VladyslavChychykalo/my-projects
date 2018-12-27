@@ -1,108 +1,108 @@
-/* CONCERT-TOURS */
-.concert-tours {
-  &__title {
-    text-transform: uppercase;
-    font-size: 51px;
-    text-align: center;
-    font-family: $main-title-font;
-    font-weight: 400;
-    font-size: 51px;
-    line-height: 59.27px;
-    letter-spacing: 5.96px;
-    background-image: linear-gradient(to bottom, rgba(98,158,168,1), rgba(140,182,175,1));
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #ffffff;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-  }
+// /* CONCERT-TOURS */
+// .concert-tours {
+//   &__title {
+//     text-transform: uppercase;
+//     font-size: 51px;
+//     text-align: center;
+//     font-family: $main-title-font;
+//     font-weight: 400;
+//     font-size: 51px;
+//     line-height: 59.27px;
+//     letter-spacing: 5.96px;
+//     background-image: linear-gradient(to bottom, rgba(98,158,168,1), rgba(140,182,175,1));
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     color: #ffffff;
+//     -webkit-text-fill-color: transparent;
+//     -webkit-background-clip: text;
+//   }
 
-  &__info {
-    text-align: center;
-    font-family: $base-font;
-    font-weight: 400;
-    font-size: 15px;
-    color: rgb(120, 129, 132);
-    line-height: 1.618;
-    letter-spacing: 1.5px;
-    padding: 0 60px 0 60px;
-  }
+//   &__info {
+//     text-align: center;
+//     font-family: $base-font;
+//     font-weight: 400;
+//     font-size: 15px;
+//     color: rgb(120, 129, 132);
+//     line-height: 1.618;
+//     letter-spacing: 1.5px;
+//     padding: 0 60px 0 60px;
+//   }
 
-  &__background {
-    background-image: url(../img/concert-tours__background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 980px;
-  }
-}
+//   &__background {
+//     background-image: url(../img/concert-tours__background.png);
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     height: 980px;
+//   }
+// }
 
-.concert-tours-background {
-  padding: 0 52px 0 52px;
+// .concert-tours-background {
+//   padding: 0 52px 0 52px;
 
-  /* smoke + mirror*/
-  &__date {
-    display: block;
-    padding-top: 300px;
-    font-family: $base-font;
-    font-weight: 700;
-    font-size: 15px;
-    color: rgba(0, 0, 2, 0.651);
-    line-height: 1.618;
+//   /* smoke + mirror*/
+//   &__date {
+//     display: block;
+//     padding-top: 300px;
+//     font-family: $base-font;
+//     font-weight: 700;
+//     font-size: 15px;
+//     color: rgba(0, 0, 2, 0.651);
+//     line-height: 1.618;
 
-    &::after {
-      display: block;
-      width: 392px;
-      height: 2px;
-      background-color: #000002;
-      content: "";
-      opacity: 0.5;
-    }
-  }
+//     &::after {
+//       display: block;
+//       width: 392px;
+//       height: 2px;
+//       background-color: #000002;
+//       content: "";
+//       opacity: 0.5;
+//     }
+//   }
 
-  &__title {
-    text-transform: uppercase;
-    font-family: $base-font;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 1.618;
-  }
+//   &__title {
+//     text-transform: uppercase;
+//     font-family: $base-font;
+//     font-weight: 700;
+//     font-size: 15px;
+//     line-height: 1.618;
+//   }
 
-  &__subtitle {
-    font-size: 23px;
-    line-height: 1.055;
-    font-family: $base-font;
-  }
+//   &__subtitle {
+//     font-size: 23px;
+//     line-height: 1.055;
+//     font-family: $base-font;
+//   }
 
-  &__info {
-    width: 380px;
-    font-family: $base-font;
-    font-weight: 400;
-    font-size: 15px;
-    color: rgb(120, 129, 132);
-    line-height: 1.618;
-    font-size: 15px;
-  }
+//   &__info {
+//     width: 380px;
+//     font-family: $base-font;
+//     font-weight: 400;
+//     font-size: 15px;
+//     color: rgb(120, 129, 132);
+//     line-height: 1.618;
+//     font-size: 15px;
+//   }
 
-  &__button {
-    margin-top: 150px;
-    display: block;
-    background-color: transparent;
-    width: 196px;
-    height: 56px;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    font-family: $base-font;
-    font-size: 14px;
-    font-weight: bold;
-    border-width: 1px;
-    border-color: rgba(98, 98, 98, 0.5);
-    border-style: solid;
-  }
-}
+//   &__button {
+//     margin-top: 150px;
+//     display: block;
+//     background-color: transparent;
+//     width: 196px;
+//     height: 56px;
+//     color: rgb(0, 0, 0);
+//     cursor: pointer;
+//     font-family: $base-font;
+//     font-size: 14px;
+//     font-weight: bold;
+//     border-width: 1px;
+//     border-color: rgba(98, 98, 98, 0.5);
+//     border-style: solid;
+//   }
+// }
 
-/*
-.concert-tours-background-block {
-  padding-top: 500px
-}
-*/
+// /*
+// .concert-tours-background-block {
+//   padding-top: 500px
+// }
+// */
