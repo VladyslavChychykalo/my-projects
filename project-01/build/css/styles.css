@@ -526,15 +526,6 @@ template {
   transform: translate(-50%, -50%);
 }
 
-/* MAIN SECTION */
-
-main {
-  width: 750px;
-  margin: auto;
-}
-
-/* SECTION DISCOGRAPHY */
-
 .discoghraphy {
   padding: 0 52px 0 52px;
 }
@@ -1442,4 +1433,13 @@ main {
   background-repeat: no-repeat;
   width: 750px;
   height: 1203px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    margin: auto;
+    width: 750px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
 }
