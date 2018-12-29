@@ -559,6 +559,661 @@ a {
   border-style: solid;
 }
 
+/* CONCERT-TOURS */
+
+.concert-tours__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Dosis, Ariel, sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.174;
+  letter-spacing: 3px;
+  background-image: linear-gradient(to bottom, #629ea8, #8cb6af);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.concert-tours__info {
+  text-align: center;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #788184;
+  line-height: 18px;
+  letter-spacing: 1.5px;
+}
+
+.concert-tours__background {
+  background-image: url(../img/concert-tours__background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 980px;
+}
+
+.concert-tours-background {
+  /* smoke + mirror*/
+}
+
+.concert-tours-background__date {
+  display: block;
+  padding-top: 300px;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: rgba(0, 0, 2, 0.651);
+  line-height: 1.618;
+}
+
+.concert-tours-background__date::after {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #000002;
+  content: "";
+  opacity: 0.5;
+}
+
+.concert-tours-background__title {
+  text-transform: uppercase;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24.27px;
+}
+
+.concert-tours-background__subtitle {
+  font-size: 21px;
+  line-height: 1.055;
+  font-family: "Open Sans", Ariel, sans-serif;
+}
+
+.concert-tours-background__info {
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #788184;
+  line-height: 20px;
+}
+
+.concert-tours-background__button {
+  margin-top: 150px;
+  display: block;
+  background-color: transparent;
+  width: 150px;
+  height: 50px;
+  color: black;
+  cursor: pointer;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  border-width: 1px;
+  border-color: rgba(98, 98, 98, 0.5);
+  border-style: solid;
+}
+
+/*
+.concert-tours-background-block {
+  padding-top: 500px
+}
+*/
+
+/* LETTER COMPOSITIONS */
+
+.letter-compositions__title {
+  color: #000000;
+  font-family: Dosis, Ariel, sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.letter-compositions__info {
+  text-align: center;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 1.77px;
+}
+
+.letter-compositions__video {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.letter-compositions-box {
+  height: 400px;
+  background-color: #f5f6f6;
+  margin: auto;
+  margin-top: 48px;
+}
+
+.letter-compositions-box__date {
+  display: inline-block;
+  padding-top: 34px;
+  padding-left: 25px;
+  opacity: 0.65;
+  color: #000002;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.letter-compositions-box__date::after {
+  display: block;
+  width: 200px;
+  height: 2px;
+  background-color: #000002;
+  content: "";
+  opacity: 0.5;
+}
+
+.letter-compositions-box__pre-title {
+  padding-left: 25px;
+  color: #000002;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24.27px;
+  text-transform: uppercase;
+}
+
+.letter-compositions-box__title {
+  padding-left: 25px;
+  padding-right: 35px;
+  color: #000000;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.41px;
+}
+
+.letter-compositions-box__info {
+  padding-left: 25px;
+  padding-right: 35px;
+  padding-top: 20px;
+  color: #7a8083;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.27px;
+}
+
+.letter-compositions-box__feedback {
+  height: auto;
+  display: flex;
+  margin-right: 25px;
+}
+
+.letter-compositions-box__button {
+  margin-left: 25px;
+  margin-right: 10px;
+  margin-top: 15px;
+  background-color: transparent;
+  width: 150px;
+  height: 50px;
+  color: black;
+  cursor: pointer;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  border-width: 1px;
+  border-color: rgba(98, 98, 98, 0.5);
+  border-style: solid;
+}
+
+.letter-compositions-box__links {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 250px;
+  list-style: none;
+}
+
+.letter-compositions-box__icon {
+  cursor: pointer;
+}
+
+.letter-compositions-block {
+  margin-top: 109px;
+  background-image: url(../img/ocean_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 750px;
+  height: 642px;
+}
+
+.letter-compositions-block__topic {
+  margin: auto;
+  text-align: center;
+  width: 608px;
+  color: #ffffff;
+  font-family: "PT Sans", Ariel, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26.27px;
+  text-transform: uppercase;
+  letter-spacing: 2.01px;
+}
+
+.letter-compositions-block__info {
+  margin: auto;
+  text-align: center;
+  width: 506px;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.25px;
+}
+
+.letter-compositions-block__date {
+  display: block;
+  margin: auto;
+  width: 200px;
+  color: #565e61;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.25px;
+}
+
+.letter-compositions-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin-top: 55px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-01 {
+  background-image: url(../img/letter-compositions-image-01.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 384px;
+  height: 422px;
+  margin-bottom: 52px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-01__date {
+  display: inline-block;
+  padding: 35px 0 0 35px;
+  opacity: 0.65;
+  color: #000000;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.letter-compositions-list .letter-compositions-list-item-01__date::after {
+  display: block;
+  width: 312px;
+  height: 2px;
+  background-color: #000002;
+  content: "";
+  opacity: 0.5;
+}
+
+.letter-compositions-list .letter-compositions-list-item-01__name {
+  padding-left: 35px;
+  color: #ffffff;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24.27px;
+  text-transform: uppercase;
+}
+
+.letter-compositions-list .letter-compositions-list-item-01__title {
+  padding-left: 33px;
+  word-wrap: normal;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.41px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-01__info {
+  padding-left: 35px;
+  padding-right: 35px;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-02 {
+  background-image: url(../img/letter-compositions-image-02.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 384px;
+  height: 422px;
+  margin-bottom: 52px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-02__date {
+  display: inline-block;
+  padding: 35px 0 0 35px;
+  opacity: 0.65;
+  color: #000000;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.letter-compositions-list .letter-compositions-list-item-02__date::after {
+  display: block;
+  width: 312px;
+  height: 2px;
+  background-color: #000002;
+  content: "";
+  opacity: 0.5;
+}
+
+.letter-compositions-list .letter-compositions-list-item-02__name {
+  padding-left: 35px;
+  color: #ffffff;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24.27px;
+  text-transform: uppercase;
+}
+
+.letter-compositions-list .letter-compositions-list-item-02__title {
+  padding-left: 33px;
+  word-wrap: normal;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.41px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-02__info {
+  padding-left: 35px;
+  padding-right: 35px;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-03 {
+  background-image: url(../img/letter-compositions-image-03.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 384px;
+  height: 422px;
+  margin-bottom: 52px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-03__date {
+  display: inline-block;
+  padding: 35px 0 0 35px;
+  opacity: 0.65;
+  color: #000000;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.letter-compositions-list .letter-compositions-list-item-03__date::after {
+  display: block;
+  width: 312px;
+  height: 2px;
+  background-color: #000002;
+  content: "";
+  opacity: 0.5;
+}
+
+.letter-compositions-list .letter-compositions-list-item-03__name {
+  padding-left: 35px;
+  color: #ffffff;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24.27px;
+  text-transform: uppercase;
+}
+
+.letter-compositions-list .letter-compositions-list-item-03__title {
+  padding-left: 33px;
+  word-wrap: normal;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.41px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-03__info {
+  padding-left: 35px;
+  padding-right: 35px;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-04 {
+  background-image: url(../img/letter-compositions-image-04.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 384px;
+  height: 422px;
+  margin-bottom: 52px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-04__date {
+  display: inline-block;
+  padding: 35px 0 0 35px;
+  opacity: 0.65;
+  color: #000000;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.letter-compositions-list .letter-compositions-list-item-04__date::after {
+  display: block;
+  width: 312px;
+  height: 2px;
+  background-color: #000002;
+  content: "";
+  opacity: 0.5;
+}
+
+.letter-compositions-list .letter-compositions-list-item-04__name {
+  padding-left: 35px;
+  color: #ffffff;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24.27px;
+  text-transform: uppercase;
+}
+
+.letter-compositions-list .letter-compositions-list-item-04__title {
+  padding-left: 33px;
+  word-wrap: normal;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.41px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-04__info {
+  padding-left: 35px;
+  padding-right: 35px;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-05 {
+  background-image: url(../img/letter-compositions-image-05.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 384px;
+  height: 422px;
+  margin-bottom: 52px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-05__date {
+  display: inline-block;
+  padding: 35px 0 0 35px;
+  opacity: 0.65;
+  color: #000000;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.letter-compositions-list .letter-compositions-list-item-05__date::after {
+  display: block;
+  width: 312px;
+  height: 2px;
+  background-color: #000002;
+  content: "";
+  opacity: 0.5;
+}
+
+.letter-compositions-list .letter-compositions-list-item-05__name {
+  padding-left: 35px;
+  color: #ffffff;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24.27px;
+  text-transform: uppercase;
+}
+
+.letter-compositions-list .letter-compositions-list-item-05__title {
+  padding-left: 33px;
+  word-wrap: normal;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.41px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-05__info {
+  padding-left: 35px;
+  padding-right: 35px;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-06 {
+  background-image: url(../img/letter-compositions-image-06.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 384px;
+  height: 422px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-06__date {
+  display: inline-block;
+  padding: 35px 0 0 35px;
+  opacity: 0.65;
+  color: #000000;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.letter-compositions-list .letter-compositions-list-item-06__date::after {
+  display: block;
+  width: 312px;
+  height: 2px;
+  background-color: #000002;
+  content: "";
+  opacity: 0.5;
+}
+
+.letter-compositions-list .letter-compositions-list-item-06__name {
+  padding-left: 35px;
+  color: #ffffff;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24.27px;
+  text-transform: uppercase;
+}
+
+.letter-compositions-list .letter-compositions-list-item-06__title {
+  padding-left: 33px;
+  word-wrap: normal;
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.41px;
+}
+
+.letter-compositions-list .letter-compositions-list-item-06__info {
+  padding-left: 35px;
+  padding-right: 35px;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;

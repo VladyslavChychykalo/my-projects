@@ -1,549 +1,582 @@
-// /* LETTER COMPOSITIONS */
+/* LETTER COMPOSITIONS */
 
-// .letter-compositions {
-//   &__title {
-//     height: 37px;
-//     color: #000000;
-//     font-family: $main-title-font;
-//     font-size: 50px;
-//     font-weight: 400;
-//     // line-height: 59.27px;
-//     text-transform: uppercase;
-//     letter-spacing: 5.96px;
-//     text-align: center
-//   }
+.letter-compositions {
+  &__title {
+    // height: 37px;
+    color: #000000;
+    font-family: $main-title-font;
+    // font-size: 50px;
+    font-size: 35px;
+    font-weight: 400;
+    // line-height: 59.27px;
+    text-transform: uppercase;
+    // letter-spacing: 5.96px;
+    letter-spacing: 3px;
+    text-align: center
+  }
 
-//   &__info {
-//     padding: 0 52px 0 52px;
-//     text-align: center;
-//     height: 41px;
-//     color: #7a8083;
-//     font-family: $base-font;
-//     font-size: 15px;
-//     font-weight: 400;
-//     line-height: 24.27px;
-//     letter-spacing: 1.77px;
-//   }
+  &__info {
+    // padding: 0 52px 0 52px;
+    text-align: center;
+    // height: 41px;
+    color: #7a8083;
+    font-family: $base-font;
+    // font-size: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    // line-height: 24.27px;
+    line-height: 18px;
+    letter-spacing: 1.77px;
+  }
 
-//   &__video {
-//     display: block;
-//     width: 600px;
-//     height: 422px;
-//     margin: auto;
-//   }
-// }
+  &__video {
+    display: block;
+    // width: 600px;
+    width: 100%;
+    // height: 422px;
+    height: auto;
+    margin: auto;
+  }
+}
 
-// .letter-compositions-box {
-//   width: 600px;
-//   height: 422px;
-//   background-color: #f5f6f6;
-//   margin: auto;
-//   margin-top: 48px;
+.letter-compositions-box {
+  // width: 600px;
+  // height: 422px;
+  height: 400px;
+  background-color: #f5f6f6;
+  margin: auto;
+  margin-top: 48px;
 
-//   &__date {
-//     display: inline-block;
-//     padding-top: 34px;
-//     padding-left: 35px;
-//     opacity: 0.65;
-//     color: #000002;
-//     font-family: $base-font;
-//     font-size: 15px;
-//     font-weight: 700;
-//     text-transform: uppercase;
-//   }
+  &__date {
+    display: inline-block;
+    padding-top: 34px;
+    // padding-left: 35px;
+    padding-left: 25px;    
+    opacity: 0.65;
+    color: #000002;
+    font-family: $base-font;
+    // font-size: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
 
-//   &__pre-title {
-//     padding-left: 35px;
-//     height: 11px;
-//     color: #000002;
-//     font-family: $base-font;
-//     font-size: 15px;
-//     font-weight: 700;
-//     line-height: 24.27px;
-//     text-transform: uppercase;
-//   }
+    &::after {
+      display: block;
+      width: 200px;
+      // width: 100%;
+      height: 2px;
+      background-color: #000002;
+      content: "";
+      opacity: 0.5;
+    }
+  }
 
-//   &__title {
-//     padding-left: 35px;
-//     padding-right: 70px;
-//     height: 45px;
-//     color: #000000;
-//     font-family: $base-font;
-//     font-size: 23px;
-//     font-weight: 400;
-//     line-height: 24.27px;
-//     letter-spacing: 0.41px;
-//   }
+  &__pre-title {
+    // padding-left: 35px;
+    padding-left: 25px;    
+    color: #000002;
+    font-family: $base-font;
+    // font-size: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24.27px;
+    text-transform: uppercase;
+  }
 
-//   &__info {
-//     padding-left: 35px;
-//     width: 520px;
-//     height: 65px;
-//     color: #7a8083;
-//     font-family: "Open Sans";
-//     font-size: 15px;
-//     font-weight: 400;
-//     line-height: 24.27px;
-//     letter-spacing: 0.27px;
-//   }
+  &__title {
+    // padding-left: 35px;
+    padding-left: 25px;    
+    // padding-right: 70px;
+    padding-right: 35px;
+    // height: 45px;
+    color: #000000;
+    font-family: $base-font;
+    // font-size: 23px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.27px;
+    letter-spacing: 0.41px;
+  }
 
-//   &__feedback {
-//     display: flex;
-//   }
+  &__info {
+    padding-left: 25px;
+    padding-right: 35px;
+    padding-top: 20px;
+    // width: 520px;
+    // height: 65px;
 
-//   &__button {
-//     margin-left: 35px;
-//     margin-top: 56px;
-//     display: inline-block;
-//     background-color: transparent;
-//     width: 196px;
-//     height: 56px;
-//     color: rgb(0, 0, 0);
-//     cursor: pointer;
-//     font-family: $base-font;
-//     font-size: 14px;
-//     font-weight: bold;
-//     border-width: 1px;
-//     border-color: rgba(98, 98, 98, 0.5);
-//     border-style: solid;
-//   }
+    color: #7a8083;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    // line-height: 24.27px;
+    line-height: 18px;
+    letter-spacing: 0.27px;
+  }
 
-//   &__links {
-//     display: flex;
-//     margin: 0;
-//     justify-content: space-between;
-//     align-items: flex-end;
-//     width: 250px;
-//     list-style: none;
-//   }
+  &__feedback {
+    height: auto;
+    display: flex;
+    margin-right: 25px;
+  }
 
-//   &__icon {
-//     cursor: pointer;
-//   }
-// }
+  &__button {
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 15px;
+    // display: inline-block;
+    background-color: transparent;
+    // width: 196px;
+    // height: 56px;
+    width: 150px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: $base-font;
+    // font-size: 14px;
+    font-size: 10px;
+    font-weight: bold;
+    border-width: 1px;
+    border-color: rgba(98, 98, 98, 0.5);
+    border-style: solid;
+  }
 
-// .letter-compositions-block {
-//   margin-top: 109px;
-//   background-image: url(../img/ocean_image.jpg);
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   background-position: center;
-//   width: 750px;
-//   height: 642px;
+  &__links {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 250px;
+    list-style: none;
+  }
 
-//   &__topic {
-//     margin: auto;
-//     text-align: center;
-//     width: 608px;
-//     color: #ffffff;
-//     font-family: $topic-font;
-//     font-size: 17px;
-//     font-weight: 400;
-//     line-height: 26.27px;
-//     text-transform: uppercase;
-//     letter-spacing: 2.01px;
-//   }
+  &__icon {
+    cursor: pointer;
+  }
+}
 
-//   &__info {
-//     margin: auto;
-//     text-align: center;
-//     width: 506px;
-//     color: #7a8083;
-//     font-family: $base-font;
-//     font-size: 15px;
-//     font-weight: 400;
-//     line-height: 24.27px;
-//     letter-spacing: 0.25px;
-//   }
+.letter-compositions-block {
+  margin-top: 109px;
+  background-image: url(../img/ocean_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 750px;
+  height: 642px;
 
-//   &__date {
-//     display: block;
-//     margin: auto;
-//     width: 200px;
-//     color: #565e61;
-//     font-family: $base-font;
-//     font-size: 14px;
-//     font-weight: 400;
-//     line-height: 24.27px;
-//     letter-spacing: 0.25px;
-//   }
-// }
+  &__topic {
+    margin: auto;
+    text-align: center;
+    width: 608px;
+    color: #ffffff;
+    font-family: $topic-font;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26.27px;
+    text-transform: uppercase;
+    letter-spacing: 2.01px;
+  }
 
-// .letter-compositions-list {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   list-style: none;
-//   margin-top: 55px;
+  &__info {
+    margin: auto;
+    text-align: center;
+    width: 506px;
+    color: #7a8083;
+    font-family: $base-font;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24.27px;
+    letter-spacing: 0.25px;
+  }
 
-//   .letter-compositions-list-item-01 {
-//     background-image: url(../img/letter-compositions-image-01.png);
-//     background-position: center;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     width: 384px;
-//     height: 422px;
-//     margin-bottom: 52px;
+  &__date {
+    display: block;
+    margin: auto;
+    width: 200px;
+    color: #565e61;
+    font-family: $base-font;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.27px;
+    letter-spacing: 0.25px;
+  }
+}
 
-//     &__date {
-//       display: inline-block;
-//       padding: 35px 0 0 35px;
-//       opacity: 0.65;
-//       color: #000000;
-//       font-family: $base-font;
-//       font-size: 14px;
-//       font-weight: 700;
-//       text-transform: uppercase;
+.letter-compositions-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin-top: 55px;
 
-//       &::after {
-//         display: block;
-//         width: 312px;
-//         height: 2px;
-//         background-color: #000002;
-//         content: "";
-//         opacity: 0.5;
-//       }
-//     }
+  .letter-compositions-list-item-01 {
+    background-image: url(../img/letter-compositions-image-01.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 422px;
+    margin-bottom: 52px;
 
-//     &__name {
-//       padding-left: 35px;
-//       color: #ffffff;
-//       font-family: $base-font;
-//       font-size: 15px;
-//       font-weight: 700;
-//       line-height: 24.27px;
-//       text-transform: uppercase;
-//     }
+    &__date {
+      display: inline-block;
+      padding: 35px 0 0 35px;
+      opacity: 0.65;
+      color: #000000;
+      font-family: $base-font;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
 
-//     &__title {
-//       padding-left: 33px;
-//       word-wrap: normal;
-//       color: #000000;
-//       font-family: "Open Sans";
-//       font-size: 23px;
-//       font-weight: 400;
-//       line-height: 24.27px;
-//       letter-spacing: 0.41px;
-//     }
+      &::after {
+        display: block;
+        width: 312px;
+        height: 2px;
+        background-color: #000002;
+        content: "";
+        opacity: 0.5;
+      }
+    }
 
-//     &__info {
-//       padding-left: 35px;
-//       padding-right: 35px;
-//       color: #7a8083;
-//       font-family: $base-font;
-//       font-size: 15px;
-//       font-weight: 400;
-//       line-height: 24.27px;
-//       letter-spacing: 0.27px;
-//     }
-//   }
+    &__name {
+      padding-left: 35px;
+      color: #ffffff;
+      font-family: $base-font;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24.27px;
+      text-transform: uppercase;
+    }
 
-//   .letter-compositions-list-item-02 {
-//     background-image: url(../img/letter-compositions-image-02.png);
-//     background-position: center;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     width: 384px;
-//     height: 422px;
-//     margin-bottom: 52px;
+    &__title {
+      padding-left: 33px;
+      word-wrap: normal;
+      color: #000000;
+      font-family: "Open Sans";
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 24.27px;
+      letter-spacing: 0.41px;
+    }
 
-//     &__date {
-//       display: inline-block;
-//       padding: 35px 0 0 35px;
-//       opacity: 0.65;
-//       color: #000000;
-//       font-family: $base-font;
-//       font-size: 14px;
-//       font-weight: 700;
-//       text-transform: uppercase;
+    &__info {
+      padding-left: 35px;
+      padding-right: 35px;
+      color: #7a8083;
+      font-family: $base-font;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24.27px;
+      letter-spacing: 0.27px;
+    }
+  }
 
-//       &::after {
-//         display: block;
-//         width: 312px;
-//         height: 2px;
-//         background-color: #000002;
-//         content: "";
-//         opacity: 0.5;
-//       }
-//     }
+  .letter-compositions-list-item-02 {
+    background-image: url(../img/letter-compositions-image-02.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 422px;
+    margin-bottom: 52px;
 
-//     &__name {
-//       padding-left: 35px;
-//       color: #ffffff;
-//       font-family: $base-font;
-//       font-size: 15px;
-//       font-weight: 700;
-//       line-height: 24.27px;
-//       text-transform: uppercase;
-//     }
+    &__date {
+      display: inline-block;
+      padding: 35px 0 0 35px;
+      opacity: 0.65;
+      color: #000000;
+      font-family: $base-font;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
 
-//     &__title {
-//       padding-left: 33px;
-//       word-wrap: normal;
-//       color: #000000;
-//       font-family: "Open Sans";
-//       font-size: 23px;
-//       font-weight: 400;
-//       line-height: 24.27px;
-//       letter-spacing: 0.41px;
-//     }
+      &::after {
+        display: block;
+        width: 312px;
+        height: 2px;
+        background-color: #000002;
+        content: "";
+        opacity: 0.5;
+      }
+    }
 
-//     &__info {
-//       padding-left: 35px;
-//       padding-right: 35px;
-//       color: #7a8083;
-//       font-family: $base-font;
-//       font-size: 15px;
-//       font-weight: 400;
-//       line-height: 24.27px;
-//       letter-spacing: 0.27px;
-//     }
-//   }
+    &__name {
+      padding-left: 35px;
+      color: #ffffff;
+      font-family: $base-font;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24.27px;
+      text-transform: uppercase;
+    }
 
-//   .letter-compositions-list-item-03 {
-//     background-image: url(../img/letter-compositions-image-03.png);
-//     background-position: center;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     width: 384px;
-//     height: 422px;
-//     margin-bottom: 52px;
+    &__title {
+      padding-left: 33px;
+      word-wrap: normal;
+      color: #000000;
+      font-family: "Open Sans";
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 24.27px;
+      letter-spacing: 0.41px;
+    }
 
-//     &__date {
-//       display: inline-block;
-//       padding: 35px 0 0 35px;
-//       opacity: 0.65;
-//       color: #000000;
-//       font-family: $base-font;
-//       font-size: 14px;
-//       font-weight: 700;
-//       text-transform: uppercase;
+    &__info {
+      padding-left: 35px;
+      padding-right: 35px;
+      color: #7a8083;
+      font-family: $base-font;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24.27px;
+      letter-spacing: 0.27px;
+    }
+  }
 
-//       &::after {
-//         display: block;
-//         width: 312px;
-//         height: 2px;
-//         background-color: #000002;
-//         content: "";
-//         opacity: 0.5;
-//       }
-//     }
+  .letter-compositions-list-item-03 {
+    background-image: url(../img/letter-compositions-image-03.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 422px;
+    margin-bottom: 52px;
 
-//     &__name {
-//       padding-left: 35px;
-//       color: #ffffff;
-//       font-family: $base-font;
-//       font-size: 15px;
-//       font-weight: 700;
-//       line-height: 24.27px;
-//       text-transform: uppercase;
-//     }
+    &__date {
+      display: inline-block;
+      padding: 35px 0 0 35px;
+      opacity: 0.65;
+      color: #000000;
+      font-family: $base-font;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
 
-//     &__title {
-//       padding-left: 33px;
-//       word-wrap: normal;
-//       color: #000000;
-//       font-family: "Open Sans";
-//       font-size: 23px;
-//       font-weight: 400;
-//       line-height: 24.27px;
-//       letter-spacing: 0.41px;
-//     }
+      &::after {
+        display: block;
+        width: 312px;
+        height: 2px;
+        background-color: #000002;
+        content: "";
+        opacity: 0.5;
+      }
+    }
 
-//     &__info {
-//       padding-left: 35px;
-//       padding-right: 35px;
-//       color: #7a8083;
-//       font-family: $base-font;
-//       font-size: 15px;
-//       font-weight: 400;
-//       line-height: 24.27px;
-//       letter-spacing: 0.27px;
-//     }
-//   }
+    &__name {
+      padding-left: 35px;
+      color: #ffffff;
+      font-family: $base-font;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24.27px;
+      text-transform: uppercase;
+    }
 
-//   .letter-compositions-list-item-04 {
-//     background-image: url(../img/letter-compositions-image-04.png);
-//     background-position: center;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     width: 384px;
-//     height: 422px;
-//     margin-bottom: 52px;
+    &__title {
+      padding-left: 33px;
+      word-wrap: normal;
+      color: #000000;
+      font-family: "Open Sans";
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 24.27px;
+      letter-spacing: 0.41px;
+    }
 
-//     &__date {
-//       display: inline-block;
-//       padding: 35px 0 0 35px;
-//       opacity: 0.65;
-//       color: #000000;
-//       font-family: $base-font;
-//       font-size: 14px;
-//       font-weight: 700;
-//       text-transform: uppercase;
+    &__info {
+      padding-left: 35px;
+      padding-right: 35px;
+      color: #7a8083;
+      font-family: $base-font;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24.27px;
+      letter-spacing: 0.27px;
+    }
+  }
 
-//       &::after {
-//         display: block;
-//         width: 312px;
-//         height: 2px;
-//         background-color: #000002;
-//         content: "";
-//         opacity: 0.5;
-//       }
-//     }
+  .letter-compositions-list-item-04 {
+    background-image: url(../img/letter-compositions-image-04.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 422px;
+    margin-bottom: 52px;
 
-//     &__name {
-//       padding-left: 35px;
-//       color: #ffffff;
-//       font-family: $base-font;
-//       font-size: 15px;
-//       font-weight: 700;
-//       line-height: 24.27px;
-//       text-transform: uppercase;
-//     }
+    &__date {
+      display: inline-block;
+      padding: 35px 0 0 35px;
+      opacity: 0.65;
+      color: #000000;
+      font-family: $base-font;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
 
-//     &__title {
-//       padding-left: 33px;
-//       word-wrap: normal;
-//       color: #000000;
-//       font-family: "Open Sans";
-//       font-size: 23px;
-//       font-weight: 400;
-//       line-height: 24.27px;
-//       letter-spacing: 0.41px;
-//     }
+      &::after {
+        display: block;
+        width: 312px;
+        height: 2px;
+        background-color: #000002;
+        content: "";
+        opacity: 0.5;
+      }
+    }
 
-//     &__info {
-//       padding-left: 35px;
-//       padding-right: 35px;
-//       color: #7a8083;
-//       font-family: $base-font;
-//       font-size: 15px;
-//       font-weight: 400;
-//       line-height: 24.27px;
-//       letter-spacing: 0.27px;
-//     }
-//   }
+    &__name {
+      padding-left: 35px;
+      color: #ffffff;
+      font-family: $base-font;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24.27px;
+      text-transform: uppercase;
+    }
 
-//   .letter-compositions-list-item-05 {
-//     background-image: url(../img/letter-compositions-image-05.png);
-//     background-position: center;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     width: 384px;
-//     height: 422px;
-//     margin-bottom: 52px;
+    &__title {
+      padding-left: 33px;
+      word-wrap: normal;
+      color: #000000;
+      font-family: "Open Sans";
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 24.27px;
+      letter-spacing: 0.41px;
+    }
 
-//     &__date {
-//       display: inline-block;
-//       padding: 35px 0 0 35px;
-//       opacity: 0.65;
-//       color: #000000;
-//       font-family: $base-font;
-//       font-size: 14px;
-//       font-weight: 700;
-//       text-transform: uppercase;
+    &__info {
+      padding-left: 35px;
+      padding-right: 35px;
+      color: #7a8083;
+      font-family: $base-font;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24.27px;
+      letter-spacing: 0.27px;
+    }
+  }
 
-//       &::after {
-//         display: block;
-//         width: 312px;
-//         height: 2px;
-//         background-color: #000002;
-//         content: "";
-//         opacity: 0.5;
-//       }
-//     }
+  .letter-compositions-list-item-05 {
+    background-image: url(../img/letter-compositions-image-05.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 422px;
+    margin-bottom: 52px;
 
-//     &__name {
-//       padding-left: 35px;
-//       color: #ffffff;
-//       font-family: $base-font;
-//       font-size: 15px;
-//       font-weight: 700;
-//       line-height: 24.27px;
-//       text-transform: uppercase;
-//     }
+    &__date {
+      display: inline-block;
+      padding: 35px 0 0 35px;
+      opacity: 0.65;
+      color: #000000;
+      font-family: $base-font;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
 
-//     &__title {
-//       padding-left: 33px;
-//       word-wrap: normal;
-//       color: #000000;
-//       font-family: "Open Sans";
-//       font-size: 23px;
-//       font-weight: 400;
-//       line-height: 24.27px;
-//       letter-spacing: 0.41px;
-//     }
+      &::after {
+        display: block;
+        width: 312px;
+        height: 2px;
+        background-color: #000002;
+        content: "";
+        opacity: 0.5;
+      }
+    }
 
-//     &__info {
-//       padding-left: 35px;
-//       padding-right: 35px;
-//       color: #7a8083;
-//       font-family: $base-font;
-//       font-size: 15px;
-//       font-weight: 400;
-//       line-height: 24.27px;
-//       letter-spacing: 0.27px;
-//     }
-//   }
+    &__name {
+      padding-left: 35px;
+      color: #ffffff;
+      font-family: $base-font;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24.27px;
+      text-transform: uppercase;
+    }
 
-//   .letter-compositions-list-item-06 {
-//     background-image: url(../img/letter-compositions-image-06.png);
-//     background-position: center;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     width: 384px;
-//     height: 422px;
+    &__title {
+      padding-left: 33px;
+      word-wrap: normal;
+      color: #000000;
+      font-family: "Open Sans";
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 24.27px;
+      letter-spacing: 0.41px;
+    }
 
-//     &__date {
-//       display: inline-block;
-//       padding: 35px 0 0 35px;
-//       opacity: 0.65;
-//       color: #000000;
-//       font-family: $base-font;
-//       font-size: 14px;
-//       font-weight: 700;
-//       text-transform: uppercase;
+    &__info {
+      padding-left: 35px;
+      padding-right: 35px;
+      color: #7a8083;
+      font-family: $base-font;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24.27px;
+      letter-spacing: 0.27px;
+    }
+  }
 
-//       &::after {
-//         display: block;
-//         width: 312px;
-//         height: 2px;
-//         background-color: #000002;
-//         content: "";
-//         opacity: 0.5;
-//       }
-//     }
+  .letter-compositions-list-item-06 {
+    background-image: url(../img/letter-compositions-image-06.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 422px;
 
-//     &__name {
-//       padding-left: 35px;
-//       color: #ffffff;
-//       font-family: $base-font;
-//       font-size: 15px;
-//       font-weight: 700;
-//       line-height: 24.27px;
-//       text-transform: uppercase;
-//     }
+    &__date {
+      display: inline-block;
+      padding: 35px 0 0 35px;
+      opacity: 0.65;
+      color: #000000;
+      font-family: $base-font;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
 
-//     &__title {
-//       padding-left: 33px;
-//       word-wrap: normal;
-//       color: #000000;
-//       font-family: "Open Sans";
-//       font-size: 23px;
-//       font-weight: 400;
-//       line-height: 24.27px;
-//       letter-spacing: 0.41px;
-//     }
+      &::after {
+        display: block;
+        width: 312px;
+        height: 2px;
+        background-color: #000002;
+        content: "";
+        opacity: 0.5;
+      }
+    }
 
-//     &__info {
-//       padding-left: 35px;
-//       padding-right: 35px;
-//       color: #7a8083;
-//       font-family: $base-font;
-//       font-size: 15px;
-//       font-weight: 400;
-//       line-height: 24.27px;
-//       letter-spacing: 0.27px;
-//     }
-//   }
-// } // overflow - hidden нужно попробовать
+    &__name {
+      padding-left: 35px;
+      color: #ffffff;
+      font-family: $base-font;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24.27px;
+      text-transform: uppercase;
+    }
+
+    &__title {
+      padding-left: 33px;
+      word-wrap: normal;
+      color: #000000;
+      font-family: "Open Sans";
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 24.27px;
+      letter-spacing: 0.41px;
+    }
+
+    &__info {
+      padding-left: 35px;
+      padding-right: 35px;
+      color: #7a8083;
+      font-family: $base-font;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24.27px;
+      letter-spacing: 0.27px;
+    }
+  }
+} // overflow - hidden нужно попробовать
