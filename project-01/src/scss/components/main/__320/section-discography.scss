@@ -1,245 +1,255 @@
-// .discoghraphy {
-//   padding: 0 52px 0 52px;
+.discoghraphy {
+  // padding: 0 52px 0 52px;
   
-//   &__title {
-//     text-transform: uppercase;
-//     font-size: 51px;
-//     text-align: center;
-//     font-family: $main-title-font;
-//     font-weight: 400;
-//     font-size: 51px;
-//     line-height: 1.174;
-//     letter-spacing: 5px;
-//   }
+  &__title {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: $main-title-font;
+    font-weight: 400;
+    // font-size: 51px;
+    font-size: 35px;
+    line-height: 1.174;
+    // letter-spacing: 5px;
+    letter-spacing: 3px;
+  }
 
-//   &__info {
-//     text-align: center;
-//     color: #7a8083;
-//     font-family: $base-font;
-//     font-size: 15px;
-//     font-weight: 400;
-//     line-height: 24.27px;
-//     letter-spacing: 1.77px;
-//   }
+  &__info {
+    text-align: center;
+    color: #7a8083;
+    font-family: $base-font;
+    // font-size: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    // line-height: 24.27px;
+    line-height: 18px;
+    letter-spacing: 1.77px;
+  }
 
-//   &__date {
-//     font-family: $base-font;
-//     font-weight: 700;
-//     font-size: 15px;
-//     color: rgba(0, 0, 2, 0.651);
-//     line-height: 1.618;
+  &__date {
+    font-family: $base-font;
+    font-weight: 700;
+    // font-size: 15px;
+    font-size: 12px;
+    color: rgba(0, 0, 2, 0.651);
+    line-height: 1.618;
 
-//     &::after {
-//       display: block;
-//       width: 649px;
-//       height: 2px;
-//       background-color: #000002;
-//       content: "";
-//       opacity: 0.5;
-//     }
-//   }
-// }
+    &::after {
+      display: block;
+      // width: 649px;
+      width: 310px;
+      height: 2px;
+      background-color: #000002;
+      content: "";
+      opacity: 0.5;
+    }
+  }
+}
 
-// /* discoghraphy-article-1 */
+/* discoghraphy-article-1 */
 
-// .discoghraphy-article-1 {
-//   padding: 0 52px 0 52px;
+.discoghraphy-article-1 {
+  // padding: 0 52px 0 52px;
 
-//   &__pretitle {
-//     text-transform: uppercase;
-//     font-family: $base-font;
-//     font-weight: 700;
-//     font-size: 15px;
-//     line-height: 1.618; 
-//   }
+  &__pretitle {
+    text-transform: uppercase;
+    font-family: $base-font;
+    font-weight: 700;
+    // font-size: 15px;
+    font-size: 12px;
+    line-height: 1.618; 
+  }
 
-//   &__title {
-//     color: #000002;
-//     font-family: $base-font;
-//     font-size: 24px;
-//     font-weight: 400;
-//     line-height: 24.27px;
-//     letter-spacing: 0.43px;
-//     opacity: 0.5;
-//   }
+  &__title {
+    color: #000002;
+    font-family: $base-font;
+    // font-size: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.27px;
+    letter-spacing: 0.43px;
+  }
 
-//   &__info {
-//     color: #aaaaaa;
-//     font-family: $base-font;
-//     font-size: 15px;
-//     font-weight: 400;
-//     line-height: 24.27px;
-//     letter-spacing: 0.27px;
-//   }
+  &__info {
+    color: #aaaaaa;
+    font-family: $base-font;
+    // font-size: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    // line-height: 24.27px;
+    line-height: 19px;
+    letter-spacing: 0.27px;
+  }
 
-//   &__button {
-//     display: block;
-//     background-image: url(../img/discography-article-1__button.png);
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     margin: auto;
-//     width: 196px;
-//     height: 56px;
-//     text-transform: uppercase;
-//     color: #ffffff;
-//     cursor: pointer;
-//     font-family: $base-font;
-//     font-size: 15px;
-//     font-weight: bold;
-//     border-width: 1px;
-//     border-color: #ffffff;
-//     border-style: solid;
-//   }
+  &__button {
+    display: block;
+    background-image: url(../img/discography-article-1__button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    // width: 196px;
+    // height: 56px;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: $base-font;
+    font-size: 15px;
+    font-weight: bold;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+  }
 
-//   &__date {
-//     font-family: $base-font;
-//     font-weight: 700;
-//     font-size: 15px;
-//     color: rgba(0, 0, 2, 0.651);
-//     line-height: 1.618;
+  &__date {
+    font-family: $base-font;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(0, 0, 2, 0.651);
+    line-height: 1.618;
 
-//     &::after {
-//       display: block;
-//       width: 649px;
-//       height: 2px;
-//       background-color: #000002;
-//       content: "";
-//       opacity: 0.5;
-//     }
-//   }
-// }
+    &::after {
+      display: block;
+      width: 649px;
+      height: 2px;
+      background-color: #000002;
+      content: "";
+      opacity: 0.5;
+    }
+  }
+}
 
-// /* discoghraphy-article-2 */
+/* discoghraphy-article-2 */
 
-// .discoghraphy-article-2 {
-//   padding: 0 52px 0 52px;
+.discoghraphy-article-2 {
+  padding: 0 52px 0 52px;
 
-//   &__pretitle {
-//     color: #000002;
-//     font-family: $base-font;
-//     font-size: 15px;
-//     font-weight: 700;
-//     line-height: 24.27px;
-//     text-transform: uppercase;
-//   }
+  &__pretitle {
+    color: #000002;
+    font-family: $base-font;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24.27px;
+    text-transform: uppercase;
+  }
 
-//   &__title {
-//     width: 450px;
-//     color: #000002;
-//     font-family: $base-font;
-//     font-size: 23px;
-//     font-weight: 400;
-//     line-height: 24.27px;
-//     letter-spacing: 0.23px;
-//   }
+  &__title {
+    width: 450px;
+    color: #000002;
+    font-family: $base-font;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 24.27px;
+    letter-spacing: 0.23px;
+  }
 
-//   &__info {
-//     color: #aaaaaa;
-//     font-family: $base-font;
-//     font-size: 15px;
-//     font-weight: 400;
-//     line-height: 24.27px;
-//     letter-spacing: 0.27px;
-//   }
+  &__info {
+    color: #aaaaaa;
+    font-family: $base-font;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24.27px;
+    letter-spacing: 0.27px;
+  }
 
-//   &__button {
-//     display: block;
-//     background-image: url(../img/discoghraphy-article-2__button.png);
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     margin: auto;
-//     width: 196px;
-//     height: 56px;
-//     text-transform: uppercase;
-//     color: #000000;
-//     cursor: pointer;
-//     font-family: $base-font;
-//     font-size: 15px;
-//     font-weight: bold;
-//     border-width: 1px;
-//     border-color: #ffffff;
-//     border-style: solid;
-//   }
+  &__button {
+    display: block;
+    background-image: url(../img/discoghraphy-article-2__button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 196px;
+    height: 56px;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+    font-family: $base-font;
+    font-size: 15px;
+    font-weight: bold;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+  }
 
-//   &__date {
-//     font-family: $base-font;
-//     font-weight: 700;
-//     font-size: 15px;
-//     color: rgba(0, 0, 2, 0.651);
-//     line-height: 1.618;
-//   }
-// }
+  &__date {
+    font-family: $base-font;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(0, 0, 2, 0.651);
+    line-height: 1.618;
+  }
+}
 
-// /* discoghraphy-article-3 */
+/* discoghraphy-article-3 */
 
-// .discoghraphy-article-3 {
-//   padding: 0 52px 0 52px;
-//   height: 787px;
-//   background-image: url(../img/mountains750x787.png);
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   background-position: center;
+.discoghraphy-article-3 {
+  padding: 0 52px 0 52px;
+  height: 787px;
+  background-image: url(../img/mountains750x787.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
-//   /*
-//   position: relative;
-//   */
-//   /*
-//   .discoghraphy-article-3__image {
-//     position: absolute;
-//     background-image: url(../img/mountains750x787.png);
-//     width: 750px;
-//     height: 787px;
-//     top: 0;
-//     left: 0;
-//   }
-//   */
+  /*
+  position: relative;
+  */
+  /*
+  .discoghraphy-article-3__image {
+    position: absolute;
+    background-image: url(../img/mountains750x787.png);
+    width: 750px;
+    height: 787px;
+    top: 0;
+    left: 0;
+  }
+  */
 
-//   &__pretitle {
-//     position: relative;
-//     text-transform: uppercase;
-//     font-family: $base-font;
-//     font-weight: 700;
-//     font-size: 15px;
-//     line-height: 1.618; 
-//   }
+  &__pretitle {
+    position: relative;
+    text-transform: uppercase;
+    font-family: $base-font;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.618; 
+  }
 
-//   &__title {
-//     position: relative;
-//     color: #000000;
-//     font-family: $base-font;
-//     font-size: 23px;
-//     font-weight: 400;
-//     line-height: 35.27px;
-//     letter-spacing: 0.41px;
-//   }
+  &__title {
+    position: relative;
+    color: #000000;
+    font-family: $base-font;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 35.27px;
+    letter-spacing: 0.41px;
+  }
 
-//   &__info {
-//     position: relative;
-//     color: #aaaaaa;
-//     font-family: $base-font;
-//     font-size: 15px;
-//     font-weight: 400;
-//     line-height: 24.27px;
-//     letter-spacing: 0.27px;
-//   }
+  &__info {
+    position: relative;
+    color: #aaaaaa;
+    font-family: $base-font;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24.27px;
+    letter-spacing: 0.27px;
+  }
 
-//   &__button {
-//     display: block;
-//     position: relative;
-//     background-image: url(../img/discoghraphy-article-3__button.png);
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     margin: auto;
-//     width: 196px;
-//     height: 56px;
-//     text-transform: uppercase;
-//     color: #000000;
-//     cursor: pointer;
-//     font-family: $base-font;
-//     font-size: 15px;
-//     font-weight: bold;
-//     border-width: 1px;
-//     border-color: #ffffff;
-//     border-style: solid;
-//   }
-// }
+  &__button {
+    display: block;
+    position: relative;
+    background-image: url(../img/discoghraphy-article-3__button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 196px;
+    height: 56px;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+    font-family: $base-font;
+    font-size: 15px;
+    font-weight: bold;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+  }
+}

@@ -1,7 +1,7 @@
 .header {
   &__wrapper {
     display: block;
-    // position: relative;
+    position: relative;
     background-image: url(../img/header-picture2.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,27 +12,27 @@
     overflow: hidden;
   }
   
-  // &__button {
-  //   position: absolute;
-  //   background-image: url(../img/menu-picture.png);
-  //   background-position: center;
-  //   background-size: cover;
-  //   width: 82px;
-  //   height: 58px;
-  //   top: 52px;
-  //   right: 67px;
-  //   cursor: pointer;
-  // }
+  &__button {
+    position: absolute;
+    background-image: url(../img/menu-picture.png);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 40px;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+  }
   
-  // &__title {
-  //   position: absolute;
-  //   background-image: url(../img/title-picture.png);
-  //   background-position: center;
-  //   background-size: cover;
-  //   width: 537px;
-  //   height: 499px;
-  //   top: 40%;
-  //   left: 50%;
-  //   transform: translate(-50%, -50%)
-  // }
+  &__title {
+    position: absolute;
+    background-image: url(../img/title-picture.png);
+    background-position: center;
+    background-size: cover;
+    width: 240px;
+    height: 220px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
 }
