@@ -350,7 +350,7 @@ a {
 
 .discoghraphy__date::after {
   display: block;
-  width: 310px;
+  width: 100%;
   height: 2px;
   background-color: #000002;
   content: "";
@@ -364,7 +364,7 @@ a {
   font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 700;
   font-size: 12px;
-  line-height: 1.618;
+  line-height: 24.27px;
 }
 
 .discoghraphy-article-1__title {
@@ -397,7 +397,7 @@ a {
   color: #ffffff;
   cursor: pointer;
   font-family: "Open Sans", Ariel, sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   border-width: 1px;
   border-color: #ffffff;
@@ -407,14 +407,14 @@ a {
 .discoghraphy-article-1__date {
   font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 12px;
   color: rgba(0, 0, 2, 0.651);
   line-height: 1.618;
 }
 
 .discoghraphy-article-1__date::after {
   display: block;
-  width: 649px;
+  width: 100%;
   height: 2px;
   background-color: #000002;
   content: "";
@@ -423,24 +423,19 @@ a {
 
 /* discoghraphy-article-2 */
 
-.discoghraphy-article-2 {
-  padding: 0 52px 0 52px;
-}
-
 .discoghraphy-article-2__pretitle {
   color: #000002;
   font-family: "Open Sans", Ariel, sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 24.27px;
   text-transform: uppercase;
 }
 
 .discoghraphy-article-2__title {
-  width: 450px;
   color: #000002;
   font-family: "Open Sans", Ariel, sans-serif;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 24.27px;
   letter-spacing: 0.23px;
@@ -449,9 +444,9 @@ a {
 .discoghraphy-article-2__info {
   color: #aaaaaa;
   font-family: "Open Sans", Ariel, sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 24.27px;
+  line-height: 19px;
   letter-spacing: 0.27px;
 }
 
@@ -461,13 +456,13 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   margin: auto;
-  width: 196px;
-  height: 56px;
+  width: 150px;
+  height: 50px;
   text-transform: uppercase;
   color: #000000;
   cursor: pointer;
   font-family: "Open Sans", Ariel, sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   border-width: 1px;
   border-color: #ffffff;
@@ -477,15 +472,23 @@ a {
 .discoghraphy-article-2__date {
   font-family: "Open Sans", Ariel, sans-serif;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 12px;
   color: rgba(0, 0, 2, 0.651);
   line-height: 1.618;
+}
+
+.discoghraphy-article-2__date::after {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #000002;
+  content: "";
+  opacity: 0.5;
 }
 
 /* discoghraphy-article-3 */
 
 .discoghraphy-article-3 {
-  padding: 0 52px 0 52px;
   height: 787px;
   background-image: url(../img/mountains750x787.png);
   background-size: cover;
@@ -507,31 +510,32 @@ a {
 }
 
 .discoghraphy-article-3__pretitle {
+  color: #000002;
   position: relative;
-  text-transform: uppercase;
   font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 12px;
   font-weight: 700;
-  font-size: 15px;
-  line-height: 1.618;
+  line-height: 24.27px;
+  text-transform: uppercase;
 }
 
 .discoghraphy-article-3__title {
   position: relative;
-  color: #000000;
+  color: #000002;
   font-family: "Open Sans", Ariel, sans-serif;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 35.27px;
+  line-height: 24.27px;
   letter-spacing: 0.41px;
 }
 
 .discoghraphy-article-3__info {
-  position: relative;
   color: #aaaaaa;
+  position: relative;
   font-family: "Open Sans", Ariel, sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 24.27px;
+  line-height: 19px;
   letter-spacing: 0.27px;
 }
 
@@ -542,13 +546,13 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   margin: auto;
-  width: 196px;
-  height: 56px;
+  width: 150px;
+  height: 50px;
   text-transform: uppercase;
   color: #000000;
   cursor: pointer;
   font-family: "Open Sans", Ariel, sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   border-width: 1px;
   border-color: #ffffff;
