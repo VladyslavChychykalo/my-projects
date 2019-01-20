@@ -12,7 +12,7 @@
     text-transform: uppercase;
     // letter-spacing: 5.96px;
     letter-spacing: 3px;
-    text-align: center
+    text-align: center;
   }
 
   &__info {
@@ -36,22 +36,28 @@
     // height: 422px;
     height: auto;
     margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
 .letter-compositions-box {
+  display: block;
   // width: 600px;
   // height: 422px;
   height: 400px;
+  // width: 100%;
   background-color: #f5f6f6;
-  margin: auto;
+  // margin: auto;
   margin-top: 48px;
+  margin-left: 5px;
+  margin-right: 5px;
 
   &__date {
     display: inline-block;
     padding-top: 34px;
     // padding-left: 35px;
-    padding-left: 25px;    
+    padding-left: 25px;
     opacity: 0.65;
     color: #000002;
     font-family: $base-font;
@@ -66,14 +72,14 @@
       // width: 100%;
       height: 2px;
       background-color: #000002;
-      content: "";
+      content: '';
       opacity: 0.5;
     }
   }
 
   &__pre-title {
     // padding-left: 35px;
-    padding-left: 25px;    
+    padding-left: 25px;
     color: #000002;
     font-family: $base-font;
     // font-size: 15px;
@@ -85,7 +91,7 @@
 
   &__title {
     // padding-left: 35px;
-    padding-left: 25px;    
+    padding-left: 25px;
     // padding-right: 70px;
     padding-right: 35px;
     // height: 45px;
@@ -106,7 +112,7 @@
     // height: 65px;
 
     color: #7a8083;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-size: 15px;
     font-weight: 400;
     // line-height: 24.27px;
@@ -161,16 +167,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 750px;
-  height: 642px;
+  display: block;
 
   &__topic {
     margin: auto;
     text-align: center;
-    width: 608px;
+    // width: 608px;
     color: #ffffff;
     font-family: $topic-font;
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 26.27px;
     text-transform: uppercase;
@@ -180,7 +185,7 @@
   &__info {
     margin: auto;
     text-align: center;
-    width: 506px;
+    // width: 506px;
     color: #7a8083;
     font-family: $base-font;
     font-size: 15px;
@@ -192,7 +197,8 @@
   &__date {
     display: block;
     margin: auto;
-    width: 200px;
+    text-align: center;
+    // width: 200px;
     color: #565e61;
     font-family: $base-font;
     font-size: 14px;
@@ -208,13 +214,16 @@
   align-items: center;
   list-style: none;
   margin-top: 55px;
+  padding-left: 5px;
+  padding-right: 5px;
 
   .letter-compositions-list-item-01 {
     background-image: url(../img/letter-compositions-image-01.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 384px;
+    // width: 384px;
+    width: 100%;
     height: 422px;
     margin-bottom: 52px;
 
@@ -230,10 +239,11 @@
 
       &::after {
         display: block;
-        width: 312px;
+        // width: 312px;
+        width: 250px;
         height: 2px;
         background-color: #000002;
-        content: "";
+        content: '';
         opacity: 0.5;
       }
     }
@@ -252,7 +262,7 @@
       padding-left: 33px;
       word-wrap: normal;
       color: #000000;
-      font-family: "Open Sans";
+      font-family: 'Open Sans';
       font-size: 23px;
       font-weight: 400;
       line-height: 24.27px;
@@ -276,7 +286,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 384px;
+    // width: 384px;
+    width: 100%;
     height: 422px;
     margin-bottom: 52px;
 
@@ -292,10 +303,11 @@
 
       &::after {
         display: block;
-        width: 312px;
+        // width: 312px;
+        width: 250px;
         height: 2px;
         background-color: #000002;
-        content: "";
+        content: '';
         opacity: 0.5;
       }
     }
@@ -314,7 +326,7 @@
       padding-left: 33px;
       word-wrap: normal;
       color: #000000;
-      font-family: "Open Sans";
+      font-family: 'Open Sans';
       font-size: 23px;
       font-weight: 400;
       line-height: 24.27px;
@@ -338,7 +350,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 384px;
+    // width: 384px;
+    width: 100%;
     height: 422px;
     margin-bottom: 52px;
 
@@ -354,10 +367,11 @@
 
       &::after {
         display: block;
-        width: 312px;
+        // width: 312px;
+        width: 250px;
         height: 2px;
         background-color: #000002;
-        content: "";
+        content: '';
         opacity: 0.5;
       }
     }
@@ -376,7 +390,7 @@
       padding-left: 33px;
       word-wrap: normal;
       color: #000000;
-      font-family: "Open Sans";
+      font-family: 'Open Sans';
       font-size: 23px;
       font-weight: 400;
       line-height: 24.27px;
@@ -400,7 +414,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 384px;
+    // width: 384px;
+    width: 100%;
     height: 422px;
     margin-bottom: 52px;
 
@@ -416,10 +431,11 @@
 
       &::after {
         display: block;
-        width: 312px;
+        // width: 312px;
+        width: 250px;
         height: 2px;
         background-color: #000002;
-        content: "";
+        content: '';
         opacity: 0.5;
       }
     }
@@ -438,7 +454,7 @@
       padding-left: 33px;
       word-wrap: normal;
       color: #000000;
-      font-family: "Open Sans";
+      font-family: 'Open Sans';
       font-size: 23px;
       font-weight: 400;
       line-height: 24.27px;
@@ -462,7 +478,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 384px;
+    // width: 384px;
+    width: 100%;
     height: 422px;
     margin-bottom: 52px;
 
@@ -478,10 +495,11 @@
 
       &::after {
         display: block;
-        width: 312px;
+        // width: 312px;
+        width: 250px;
         height: 2px;
         background-color: #000002;
-        content: "";
+        content: '';
         opacity: 0.5;
       }
     }
@@ -500,7 +518,7 @@
       padding-left: 33px;
       word-wrap: normal;
       color: #000000;
-      font-family: "Open Sans";
+      font-family: 'Open Sans';
       font-size: 23px;
       font-weight: 400;
       line-height: 24.27px;
@@ -524,7 +542,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 384px;
+    // width: 384px;
+    width: 100%;
     height: 422px;
 
     &__date {
@@ -539,10 +558,11 @@
 
       &::after {
         display: block;
-        width: 312px;
+        // width: 312px;
+        width: 250px;
         height: 2px;
         background-color: #000002;
-        content: "";
+        content: '';
         opacity: 0.5;
       }
     }
@@ -561,7 +581,7 @@
       padding-left: 33px;
       word-wrap: normal;
       color: #000000;
-      font-family: "Open Sans";
+      font-family: 'Open Sans';
       font-size: 23px;
       font-weight: 400;
       line-height: 24.27px;
