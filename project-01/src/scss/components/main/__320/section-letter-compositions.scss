@@ -36,8 +36,8 @@
     // height: 422px;
     height: auto;
     margin: auto;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
@@ -50,8 +50,8 @@
   background-color: #f5f6f6;
   // margin: auto;
   margin-top: 48px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 
   &__date {
     display: inline-block;
@@ -110,10 +110,10 @@
     padding-top: 20px;
     // width: 520px;
     // height: 65px;
-
     color: #7a8083;
     font-family: 'Open Sans';
-    font-size: 15px;
+    // font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     // line-height: 24.27px;
     line-height: 18px;
@@ -168,9 +168,34 @@
   background-repeat: no-repeat;
   background-position: center;
   display: block;
+  height: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  &__image {
+    padding-top: 50px;
+    display: flex;
+
+    &-lightning-1 {
+      margin: auto;
+      width: 28px;
+      height: 8px;
+    }
+
+    &-lightning-2 {
+      margin: auto;
+      width: 28px;
+      height: 8px;
+    }
+
+    &-note {
+      width: 25px;
+      height: 29px;
+    }
+  }
 
   &__topic {
-    margin: auto;
+    margin-top: 70px;
     text-align: center;
     // width: 608px;
     color: #ffffff;
@@ -184,6 +209,7 @@
 
   &__info {
     margin: auto;
+    margin-top: 70px;
     text-align: center;
     // width: 506px;
     color: #7a8083;
@@ -196,7 +222,7 @@
 
   &__date {
     display: block;
-    margin: auto;
+    margin-top: 50px;
     text-align: center;
     // width: 200px;
     color: #565e61;
@@ -214,8 +240,8 @@
   align-items: center;
   list-style: none;
   margin-top: 55px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 
   .letter-compositions-list-item-01 {
     background-image: url(../img/letter-compositions-image-01.png);
@@ -224,7 +250,8 @@
     background-repeat: no-repeat;
     // width: 384px;
     width: 100%;
-    height: 422px;
+    // height: 422px;
+    height: 400px;
     margin-bottom: 52px;
 
     &__date {
@@ -233,7 +260,8 @@
       opacity: 0.65;
       color: #000000;
       font-family: $base-font;
-      font-size: 14px;
+      // font-size: 14px;
+      font-size: 12px;
       font-weight: 700;
       text-transform: uppercase;
 
@@ -252,18 +280,20 @@
       padding-left: 35px;
       color: #ffffff;
       font-family: $base-font;
-      font-size: 15px;
+      // font-size: 15px;
+      font-size: 12px;
       font-weight: 700;
       line-height: 24.27px;
       text-transform: uppercase;
     }
 
     &__title {
-      padding-left: 33px;
+      padding-left: 35px;
       word-wrap: normal;
       color: #000000;
-      font-family: 'Open Sans';
-      font-size: 23px;
+      font-family: $base-font;
+      // font-size: 23px;
+      font-size: 20px;
       font-weight: 400;
       line-height: 24.27px;
       letter-spacing: 0.41px;
@@ -272,11 +302,14 @@
     &__info {
       padding-left: 35px;
       padding-right: 35px;
+      margin-top: 20px;
       color: #7a8083;
       font-family: $base-font;
-      font-size: 15px;
+      // font-size: 15px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 24.27px;
+      // line-height: 22px;
       letter-spacing: 0.27px;
     }
   }
@@ -288,7 +321,8 @@
     background-repeat: no-repeat;
     // width: 384px;
     width: 100%;
-    height: 422px;
+    // height: 422px;
+    height: 400px;
     margin-bottom: 52px;
 
     &__date {
@@ -297,7 +331,8 @@
       opacity: 0.65;
       color: #000000;
       font-family: $base-font;
-      font-size: 14px;
+      // font-size: 14px;
+      font-size: 12px;
       font-weight: 700;
       text-transform: uppercase;
 
@@ -316,18 +351,20 @@
       padding-left: 35px;
       color: #ffffff;
       font-family: $base-font;
-      font-size: 15px;
+      // font-size: 15px;
+      font-size: 12px;
       font-weight: 700;
       line-height: 24.27px;
       text-transform: uppercase;
     }
 
     &__title {
-      padding-left: 33px;
+      padding-left: 35px;
       word-wrap: normal;
       color: #000000;
-      font-family: 'Open Sans';
-      font-size: 23px;
+      font-family: $base-font;
+      // font-size: 23px;
+      font-size: 20px;
       font-weight: 400;
       line-height: 24.27px;
       letter-spacing: 0.41px;
@@ -336,11 +373,14 @@
     &__info {
       padding-left: 35px;
       padding-right: 35px;
+      margin-top: 20px;
       color: #7a8083;
       font-family: $base-font;
-      font-size: 15px;
+      // font-size: 15px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 24.27px;
+      // line-height: 22px;
       letter-spacing: 0.27px;
     }
   }
@@ -352,7 +392,8 @@
     background-repeat: no-repeat;
     // width: 384px;
     width: 100%;
-    height: 422px;
+    // height: 422px;
+    height: 400px;
     margin-bottom: 52px;
 
     &__date {
@@ -361,7 +402,8 @@
       opacity: 0.65;
       color: #000000;
       font-family: $base-font;
-      font-size: 14px;
+      // font-size: 14px;
+      font-size: 12px;
       font-weight: 700;
       text-transform: uppercase;
 
@@ -380,18 +422,20 @@
       padding-left: 35px;
       color: #ffffff;
       font-family: $base-font;
-      font-size: 15px;
+      // font-size: 15px;
+      font-size: 12px;
       font-weight: 700;
       line-height: 24.27px;
       text-transform: uppercase;
     }
 
     &__title {
-      padding-left: 33px;
+      padding-left: 35px;
       word-wrap: normal;
       color: #000000;
-      font-family: 'Open Sans';
-      font-size: 23px;
+      font-family: $base-font;
+      // font-size: 23px;
+      font-size: 20px;
       font-weight: 400;
       line-height: 24.27px;
       letter-spacing: 0.41px;
@@ -400,11 +444,14 @@
     &__info {
       padding-left: 35px;
       padding-right: 35px;
+      margin-top: 20px;
       color: #7a8083;
       font-family: $base-font;
-      font-size: 15px;
+      // font-size: 15px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 24.27px;
+      // line-height: 22px;
       letter-spacing: 0.27px;
     }
   }
@@ -416,7 +463,8 @@
     background-repeat: no-repeat;
     // width: 384px;
     width: 100%;
-    height: 422px;
+    // height: 422px;
+    height: 400px;
     margin-bottom: 52px;
 
     &__date {
@@ -425,7 +473,8 @@
       opacity: 0.65;
       color: #000000;
       font-family: $base-font;
-      font-size: 14px;
+      // font-size: 14px;
+      font-size: 12px;
       font-weight: 700;
       text-transform: uppercase;
 
@@ -444,18 +493,20 @@
       padding-left: 35px;
       color: #ffffff;
       font-family: $base-font;
-      font-size: 15px;
+      // font-size: 15px;
+      font-size: 12px;
       font-weight: 700;
       line-height: 24.27px;
       text-transform: uppercase;
     }
 
     &__title {
-      padding-left: 33px;
+      padding-left: 35px;
       word-wrap: normal;
       color: #000000;
-      font-family: 'Open Sans';
-      font-size: 23px;
+      font-family: $base-font;
+      // font-size: 23px;
+      font-size: 20px;
       font-weight: 400;
       line-height: 24.27px;
       letter-spacing: 0.41px;
@@ -464,11 +515,14 @@
     &__info {
       padding-left: 35px;
       padding-right: 35px;
+      margin-top: 20px;
       color: #7a8083;
       font-family: $base-font;
-      font-size: 15px;
+      // font-size: 15px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 24.27px;
+      // line-height: 22px;
       letter-spacing: 0.27px;
     }
   }
@@ -480,7 +534,8 @@
     background-repeat: no-repeat;
     // width: 384px;
     width: 100%;
-    height: 422px;
+    // height: 422px;
+    height: 400px;
     margin-bottom: 52px;
 
     &__date {
@@ -489,7 +544,8 @@
       opacity: 0.65;
       color: #000000;
       font-family: $base-font;
-      font-size: 14px;
+      // font-size: 14px;
+      font-size: 12px;
       font-weight: 700;
       text-transform: uppercase;
 
@@ -508,18 +564,20 @@
       padding-left: 35px;
       color: #ffffff;
       font-family: $base-font;
-      font-size: 15px;
+      // font-size: 15px;
+      font-size: 12px;
       font-weight: 700;
       line-height: 24.27px;
       text-transform: uppercase;
     }
 
     &__title {
-      padding-left: 33px;
+      padding-left: 35px;
       word-wrap: normal;
       color: #000000;
-      font-family: 'Open Sans';
-      font-size: 23px;
+      font-family: $base-font;
+      // font-size: 23px;
+      font-size: 20px;
       font-weight: 400;
       line-height: 24.27px;
       letter-spacing: 0.41px;
@@ -528,11 +586,14 @@
     &__info {
       padding-left: 35px;
       padding-right: 35px;
+      margin-top: 20px;
       color: #7a8083;
       font-family: $base-font;
-      font-size: 15px;
+      // font-size: 15px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 24.27px;
+      // line-height: 22px;
       letter-spacing: 0.27px;
     }
   }
@@ -544,7 +605,8 @@
     background-repeat: no-repeat;
     // width: 384px;
     width: 100%;
-    height: 422px;
+    // height: 422px;
+    height: 400px;
 
     &__date {
       display: inline-block;
@@ -552,7 +614,8 @@
       opacity: 0.65;
       color: #000000;
       font-family: $base-font;
-      font-size: 14px;
+      // font-size: 14px;
+      font-size: 12px;
       font-weight: 700;
       text-transform: uppercase;
 
@@ -571,18 +634,20 @@
       padding-left: 35px;
       color: #ffffff;
       font-family: $base-font;
-      font-size: 15px;
+      // font-size: 15px;
+      font-size: 12px;
       font-weight: 700;
       line-height: 24.27px;
       text-transform: uppercase;
     }
 
     &__title {
-      padding-left: 33px;
+      padding-left: 35px;
       word-wrap: normal;
       color: #000000;
-      font-family: 'Open Sans';
-      font-size: 23px;
+      font-family: $base-font;
+      // font-size: 23px;
+      font-size: 20px;
       font-weight: 400;
       line-height: 24.27px;
       letter-spacing: 0.41px;
@@ -591,11 +656,14 @@
     &__info {
       padding-left: 35px;
       padding-right: 35px;
+      margin-top: 20px;
       color: #7a8083;
       font-family: $base-font;
-      font-size: 15px;
+      // font-size: 15px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 24.27px;
+      // line-height: 22px;
       letter-spacing: 0.27px;
     }
   }
