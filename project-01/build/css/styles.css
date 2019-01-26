@@ -320,12 +320,17 @@ a {
   transform: translate(-50%, -50%);
 }
 
+.discoghraphy {
+  padding: 0 10px 0 10px;
+}
+
 .discoghraphy__title {
+  margin-top: 30px;
   text-transform: uppercase;
   text-align: center;
   font-family: Dosis, Ariel, sans-serif;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 33px;
   line-height: 1.174;
   letter-spacing: 3px;
 }
@@ -358,6 +363,10 @@ a {
 }
 
 /* discoghraphy-article-1 */
+
+.discoghraphy-article-1 {
+  padding: 0 10px 0 10px;
+}
 
 .discoghraphy-article-1__pretitle {
   text-transform: uppercase;
@@ -422,6 +431,10 @@ a {
 }
 
 /* discoghraphy-article-2 */
+
+.discoghraphy-article-2 {
+  padding: 0 10px 0 10px;
+}
 
 .discoghraphy-article-2__pretitle {
   color: #000002;
@@ -489,6 +502,7 @@ a {
 /* discoghraphy-article-3 */
 
 .discoghraphy-article-3 {
+  padding: 0 10px 0 10px;
   height: 787px;
   background-image: url(../img/mountains750x787.png);
   background-size: cover;
@@ -561,12 +575,16 @@ a {
 
 /* CONCERT-TOURS */
 
+.concert-tours {
+  padding: 0 10px 0 10px;
+}
+
 .concert-tours__title {
   text-transform: uppercase;
   text-align: center;
   font-family: Dosis, Ariel, sans-serif;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 33px;
   line-height: 1.174;
   letter-spacing: 3px;
   background-image: linear-gradient(to bottom, #629ea8, #8cb6af);
@@ -596,6 +614,7 @@ a {
 }
 
 .concert-tours-background {
+  padding: 0 10px 0 10px;
   /* smoke + mirror*/
 }
 
