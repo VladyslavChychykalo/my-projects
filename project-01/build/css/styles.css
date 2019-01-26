@@ -336,6 +336,8 @@ a {
 }
 
 .discoghraphy__info {
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
   color: #7a8083;
   font-family: "Open Sans", Ariel, sans-serif;
@@ -377,6 +379,7 @@ a {
 }
 
 .discoghraphy-article-1__title {
+  margin: 5px 0 15px 0;
   color: #000002;
   font-family: "Open Sans", Ariel, sans-serif;
   font-size: 20px;
@@ -392,6 +395,7 @@ a {
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.27px;
+  margin-bottom: 20px;
 }
 
 .discoghraphy-article-1__button {
@@ -411,6 +415,7 @@ a {
   border-width: 1px;
   border-color: #ffffff;
   border-style: solid;
+  margin-bottom: 50px;
 }
 
 .discoghraphy-article-1__date {
@@ -446,6 +451,7 @@ a {
 }
 
 .discoghraphy-article-2__title {
+  margin: 5px 0 15px 0;
   color: #000002;
   font-family: "Open Sans", Ariel, sans-serif;
   font-size: 20px;
@@ -461,6 +467,7 @@ a {
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.27px;
+  margin-bottom: 20px;
 }
 
 .discoghraphy-article-2__button {
@@ -480,6 +487,7 @@ a {
   border-width: 1px;
   border-color: #ffffff;
   border-style: solid;
+  margin-bottom: 50px;
 }
 
 .discoghraphy-article-2__date {
@@ -534,6 +542,7 @@ a {
 }
 
 .discoghraphy-article-3__title {
+  margin: 5px 0 15px 0;
   position: relative;
   color: #000002;
   font-family: "Open Sans", Ariel, sans-serif;
@@ -551,6 +560,7 @@ a {
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0.27px;
+  margin-bottom: 20px;
 }
 
 .discoghraphy-article-3__button {
