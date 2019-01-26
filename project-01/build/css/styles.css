@@ -665,9 +665,11 @@ a {
 /* LETTER COMPOSITIONS */
 
 .letter-compositions__title {
+  padding: 0 10px 0 10px;
+  margin-top: 60px;
   color: #000000;
   font-family: Dosis, Ariel, sans-serif;
-  font-size: 35px;
+  font-size: 33px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -675,6 +677,8 @@ a {
 }
 
 .letter-compositions__info {
+  padding: 0 10px 0 10px;
+  margin-top: 30px;
   text-align: center;
   color: #7a8083;
   font-family: "Open Sans", Ariel, sans-serif;
@@ -704,8 +708,8 @@ a {
 
 .letter-compositions-box__date {
   display: inline-block;
-  padding-top: 34px;
-  padding-left: 25px;
+  padding: 34px 35px 0 25px;
+  width: 100%;
   opacity: 0.65;
   color: #000002;
   font-family: "Open Sans", Ariel, sans-serif;
@@ -716,7 +720,6 @@ a {
 
 .letter-compositions-box__date::after {
   display: block;
-  width: 200px;
   height: 2px;
   background-color: #000002;
   content: '';
@@ -884,7 +887,8 @@ a {
 
 .letter-compositions-list .letter-compositions-list-item-01__date {
   display: inline-block;
-  padding: 35px 0 0 35px;
+  padding: 35px 35px 0 35px;
+  width: 100%;
   opacity: 0.65;
   color: #000000;
   font-family: "Open Sans", Ariel, sans-serif;
@@ -895,7 +899,6 @@ a {
 
 .letter-compositions-list .letter-compositions-list-item-01__date::after {
   display: block;
-  width: 250px;
   height: 2px;
   background-color: #000002;
   content: '';
@@ -947,7 +950,8 @@ a {
 
 .letter-compositions-list .letter-compositions-list-item-02__date {
   display: inline-block;
-  padding: 35px 0 0 35px;
+  padding: 35px 35px 0 35px;
+  width: 100%;
   opacity: 0.65;
   color: #000000;
   font-family: "Open Sans", Ariel, sans-serif;
@@ -958,7 +962,6 @@ a {
 
 .letter-compositions-list .letter-compositions-list-item-02__date::after {
   display: block;
-  width: 250px;
   height: 2px;
   background-color: #000002;
   content: '';
@@ -1010,7 +1013,8 @@ a {
 
 .letter-compositions-list .letter-compositions-list-item-03__date {
   display: inline-block;
-  padding: 35px 0 0 35px;
+  padding: 35px 35px 0 35px;
+  width: 100%;
   opacity: 0.65;
   color: #000000;
   font-family: "Open Sans", Ariel, sans-serif;
@@ -1021,7 +1025,6 @@ a {
 
 .letter-compositions-list .letter-compositions-list-item-03__date::after {
   display: block;
-  width: 250px;
   height: 2px;
   background-color: #000002;
   content: '';
@@ -1073,7 +1076,8 @@ a {
 
 .letter-compositions-list .letter-compositions-list-item-04__date {
   display: inline-block;
-  padding: 35px 0 0 35px;
+  padding: 35px 35px 0 35px;
+  width: 100%;
   opacity: 0.65;
   color: #000000;
   font-family: "Open Sans", Ariel, sans-serif;
@@ -1084,7 +1088,6 @@ a {
 
 .letter-compositions-list .letter-compositions-list-item-04__date::after {
   display: block;
-  width: 250px;
   height: 2px;
   background-color: #000002;
   content: '';
@@ -1136,7 +1139,8 @@ a {
 
 .letter-compositions-list .letter-compositions-list-item-05__date {
   display: inline-block;
-  padding: 35px 0 0 35px;
+  padding: 35px 35px 0 35px;
+  width: 100%;
   opacity: 0.65;
   color: #000000;
   font-family: "Open Sans", Ariel, sans-serif;
@@ -1147,7 +1151,6 @@ a {
 
 .letter-compositions-list .letter-compositions-list-item-05__date::after {
   display: block;
-  width: 250px;
   height: 2px;
   background-color: #000002;
   content: '';
@@ -1198,7 +1201,8 @@ a {
 
 .letter-compositions-list .letter-compositions-list-item-06__date {
   display: inline-block;
-  padding: 35px 0 0 35px;
+  padding: 35px 35px 0 35px;
+  width: 100%;
   opacity: 0.65;
   color: #000000;
   font-family: "Open Sans", Ariel, sans-serif;
@@ -1209,7 +1213,6 @@ a {
 
 .letter-compositions-list .letter-compositions-list-item-06__date::after {
   display: block;
-  width: 250px;
   height: 2px;
   background-color: #000002;
   content: '';
