@@ -1284,6 +1284,124 @@ a {
   letter-spacing: 0.27px;
 }
 
+.upcoming-events {
+  background-image: url(../img/upcoming-events-image.png);
+  background-size: cover;
+  background-position: right 70% bottom 50%;
+  background-repeat: no-repeat;
+  height: 1203px;
+}
+
+.upcoming-events__wrapper {
+  width: 300px;
+  margin: auto;
+}
+
+.upcoming-events__title {
+  padding-top: 65px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  color: #42717e;
+  font-family: Dosis, Ariel, sans-serif;
+  font-size: 33px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.upcoming-events__subtitle {
+  word-wrap: normal;
+  color: #000000;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.41px;
+}
+
+.upcoming-events__subtitle::after {
+  margin-top: 10px;
+  display: block;
+  width: 132px;
+  height: 2px;
+  background-color: #000002;
+  content: '';
+  opacity: 0.5;
+}
+
+.upcoming-events__address {
+  margin-top: 20px;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
+}
+
+.upcoming-events__date-1 {
+  display: inline-block;
+  width: 100%;
+  opacity: 0.65;
+  color: #000000;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.upcoming-events__date-1::before {
+  display: block;
+  margin-bottom: 15px;
+  border-left: 2px solid #000002;
+  height: 51px;
+  margin-left: 30px;
+  content: '';
+  opacity: 0.5;
+}
+
+.upcoming-events__date-1::after {
+  display: block;
+  margin-top: 15px;
+  border-left: 2px solid #000002;
+  height: 165px;
+  margin-left: 30px;
+  content: '';
+  opacity: 0.5;
+}
+
+.upcoming-events__info {
+  margin-top: 20px;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
+}
+
+.upcoming-events__date-2 {
+  display: inline-block;
+  width: 100%;
+  opacity: 0.65;
+  color: #000000;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.upcoming-events__date-2::before {
+  display: block;
+  margin-bottom: 15px;
+  border-left: 2px solid #000002;
+  height: 51px;
+  margin-left: 30px;
+  content: '';
+  opacity: 0.5;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
