@@ -1402,6 +1402,62 @@ a {
   opacity: 0.5;
 }
 
+.history {
+  background-image: url(../img/history-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 768;
+  height: 830px;
+}
+
+.history__title {
+  margin-top: 60px;
+  color: #5b5c5a;
+  font-family: Dosis, Ariel, sans-serif;
+  font-size: 33px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.history__info {
+  margin-top: 20px;
+  padding: 0 10px 0 10px;
+  text-align: center;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 1.77px;
+}
+
+.history__date {
+  margin-top: 80px;
+  text-align: center;
+  color: #575a59;
+  font-family: Dosis, Ariel, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 59.27px;
+  text-transform: uppercase;
+  letter-spacing: 4.19px;
+}
+
+.history__mention {
+  padding-top: 20px;
+  margin: auto;
+  text-align: center;
+  width: 180px;
+  color: #5a5a58;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.27px;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;

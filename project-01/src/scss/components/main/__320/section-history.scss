@@ -1,0 +1,62 @@
+.history {
+  background-image: url(../img/history-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 768;
+  height: 830px;
+
+  &__title {
+    margin-top: 60px;
+    // height: 37px;
+    color: #5b5c5a;
+    font-family: $main-title-font;
+    // font-size: 50px;
+    font-size: 33px;
+    font-weight: 400;
+    // line-height: 59.27px;
+    text-transform: uppercase;
+    // letter-spacing: 5.96px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  &__info {
+    margin-top: 20px;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    // height: 41px;
+    color: #7a8083;
+    font-family: $base-font;
+    // font-size: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    // line-height: 24.27px;
+    line-height: 18px;
+    letter-spacing: 1.77px;
+  }
+
+  &__date {
+    margin-top: 80px;
+    text-align: center;
+    color: #575a59;
+    font-family: $main-title-font;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 59.27px;
+    text-transform: uppercase;
+    letter-spacing: 4.19px;
+  }
+
+  &__mention {
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    width: 180px;
+    color: #5a5a58;
+    font-family: $base-font;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.27px;
+  }
+}
