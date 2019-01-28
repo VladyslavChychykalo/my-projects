@@ -1458,6 +1458,76 @@ a {
   line-height: 19.27px;
 }
 
+.contact {
+  background-image: url(../img/contact-image.png);
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 65% bottom 50%;
+}
+
+.contact__title {
+  color: #454545;
+  font-family: Dosis, Ariel, sans-serif;
+  font-size: 33px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.contact__address {
+  margin-top: 20px;
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
+}
+
+.contact__phone {
+  color: #7a8083;
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24.27px;
+  letter-spacing: 0.27px;
+}
+
+.contact__input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap;
+  max-width: 200px;
+  height: 150px;
+  margin-top: 77px;
+}
+
+.contact__input {
+  width: 250px;
+  border: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  font-family: "Open Sans", Ariel, sans-serif;
+  font-weight: 400;
+}
+
+.contact__input:focus {
+  outline: 0;
+}
+
+.contact__input:invalid:focus {
+  border-bottom: 2px red solid;
+}
+
+.contact__input[name="user_name"]:valid {
+  border-bottom: 2px green solid;
+}
+
+.contact__input[name="user_email"]:valid {
+  border-bottom: 2px green solid;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
