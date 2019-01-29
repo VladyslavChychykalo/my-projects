@@ -349,17 +349,24 @@
 </main>
 <footer>
   <div class="contact">
-    <h2 class="contact__title">Contact</h2>
-    <p class="contact__address">Canada Island, Division No. 23, Unorganized, MB, Canada</p>
-    <p class="contact__phone">Tel. +1(778) 288 5180</p>
-    <form action="#">
-      <section class="contact__input-box">
-        <input type="text" placeholder="Name *" name="user_name" class="contact__input" required>
-        <input type="email" placeholder="E mail *" name="user_email" class="contact__input" required>
-        <input type="text" placeholder="Message" class="contact__input">
-        <button></button>
-      </section>
-    </form>
+    <div class="contact__wrapper">
+      <h2 class="contact__title">Contact</h2>
+      <p class="contact__address">Canada Island, Division No. 23, Unorganized, MB, Canada</p>
+      <p class="contact__phone">Tel. +1(778) 288 5180</p>
+      <form action="#">
+        <section class="contact__input-box">
+          <div class="contact__social-link">
+            <a class="contact__link-facebook" href=""></a>
+            <a class="contact__link-instagram" href=""></a>
+            <a class="contact__link-twitter" href=""></a>
+          </div>
+          <input type="text" placeholder="Name *" name="user_name" class="contact__input" required>
+          <input type="email" placeholder="E mail *" name="user_email" class="contact__input" required>
+          <input type="text" placeholder="Message" class="contact__input">
+          <button class="contact__button">Send</button>
+        </section>
+      </form>
+    </div>
   </div>
 </footer>
 
